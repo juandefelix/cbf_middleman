@@ -1,0 +1,37 @@
+<div class="container-fluid">
+  <div class="row">
+    <%banner_content = {
+      title: "Ergonomics",
+      text: "Moving, standing, and sitting well drastically improve the quality of life and can help ward 
+            off health and mobility issues for years to come. Having pain, or just curious about how your
+            space can serve you better? Let us help.",
+      image: 'https://www.haworth.com/content/dam/haworth-com/global/product-categories/projects/temp-spaces/hafele/7%20Hafele%20Client%20Space-Haworth.jpg'
+    }%>
+    <%=partial "partials/banner", locals: banner_content%>
+  </div>
+</div>
+
+<h1 class="mb-5">Ergonomic Consulting with 25 Years of Experience!</h1>
+
+<a href="https://www.cbfplus.com/documents/Brochure_Ergonomics_General-nobleed.pdf" target="_blank"><h3>Click here for your free ergonomics brochure</h3></a>
+
+<% products = 
+[{name: "One", image:'https://www.cbfplus.com/images/thumb-idea-starter02.jpg'},
+{name: "Two", image:'https://www.cbfplus.com/images/pict009-ergonomic-help-sm.jpg'},
+{name: "Three", image:'https://www.cbfplus.com/images/thumb-online-library02.jpg'},
+{name: "Four", image:'https://www.cbfplus.com/images/thumb-accent-pieces2.jpg'}]
+%>
+
+<div class="container mt-5 bg-light pt-3 pl-3 pb-3 pr-3">
+  <h3 class="mb-5">Examples of Ergonomic products</h3>
+  <% 2.times do %>
+  <div class="row">
+    <% products.each do |product| %>
+    <div class="col-sm">
+      <img src="<%= product[:image] %>">
+      <h2 class="mb-5">Product <%= product[:name] %></h2>
+    </div>
+    <% end %>
+  </div>
+  <% end %>
+</div>

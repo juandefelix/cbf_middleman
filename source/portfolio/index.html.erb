@@ -1,0 +1,59 @@
+<div class="container-fluid">
+  <div class="row">
+    <%banner_content = {
+      title: "Portfolio",
+      text: "We have been designing and installing workspaces in our community since 1993. We take pride
+            in having worked with a wide variety of businesses. Find examples of our work below.",
+      image: 'https://www.haworth.com/content/dam/haworth-com/global/inspiration---spaces---projects/customer-spaces/ash-brokerage/Gallery%205.jpg'
+    }%>
+    <%=partial "partials/banner", locals: banner_content%>
+  </div>
+</div>
+
+<%#I'll want to create a partial with the info below!%>
+
+<% products = [
+  {name: "one", image:'https://www.cbfplus.com/images/thumb-idea-starter02.jpg'},
+  {name: "two", image:'https://www.cbfplus.com/images/pict009-ergonomic-help-sm.jpg'},
+  {name: "three", image:'https://www.cbfplus.com/images/thumb-online-library02.jpg'},
+  {name: "four", image:'https://www.cbfplus.com/images/thumb-accent-pieces2.jpg'}]
+%>
+
+<div class="container projects mb-5">
+  <h1 class="mb-5">Project 1</h1>
+  <% 2.times do %>
+  <div class="row">
+    <% products.each do |product| %>
+    <div class="col-sm">
+      <img src="<%= product[:image] %>" >
+      <h2><%= product[:name] %></h2>
+    </div>
+    <% end %>
+  </div>
+  <% end %>
+</div>
+<div class="container projects mb-5">
+  <h1 class="mb-5">Project 2</h1>
+  <% 2.times do %>
+  <div class="row">
+    <% products.each do |product| %>
+    <div class="col-sm">
+      <img src="<%= product[:image] %>" >
+      <h2><%= product[:name] %></h2>
+    </div>
+    <% end %>
+  </div>
+  <% end %>
+</div>
+
+<div class="info-panel row pt-5 pr-5 pl-5 ml-5 mr-5 mb-5">
+  <h2 class="mb-4">INTERESTED?</h2>
+  <p class="mb-5">If you would like any additional information about these projects or our other products,
+   or would like to request a quote, please reach out to us and we'll follow up with you promptly!</p>
+  <div class="mr-3">
+    <button type="button" class="btn btn-outline-danger"><i id="phone" class="fas fa-phone-alt pr-2"></i>701-293-3944</button>
+  </div>
+  <div>
+    <button type="button" class="btn btn-danger mb-5"><i class="far fa-envelope pr-2"></i>Send an inquiry</button>
+  </div>
+</div>

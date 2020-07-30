@@ -1,0 +1,76 @@
+@import "markets.scss";
+@import "home.scss";
+@import "footer.scss";
+@import "about.scss";
+@import "portfolio.scss";
+@import "inspirations.scss";
+@import "contact.scss";
+@import "industries.scss";
+@import "education.scss";
+@import "services.scss";
+
+body {
+  background-color: white;
+  color: #333;
+  font-family: -apple-system, BlinkMacSystemFont, "Avenir Next", "Avenir",
+    "Segoe UI", "Lucida Grande", "Helvetica Neue", "Helvetica", "Fira Sans",
+    "Roboto", "Noto", "Droid Sans", "Cantarell", "Oxygen", "Ubuntu",
+    "Franklin Gothic Medium", "Century Gothic", "Liberation Sans", sans-serif;
+  /*padding: 18vh 1rem;*/
+  text-align: center;
+  padding-top: 117px;
+}
+
+.navbar li a {
+  font-weight: 600;
+}
+
+.navbar-brand {
+  font-weight: 400;
+}
+
+i.fas, i.fab {
+  color: black;
+}
+
+a {
+  color: rgba(#000, 0.7);
+
+  &:focus,
+  &:hover {
+    color: rgba(#000, 0.6);
+  }
+}
+/*
+.banner-home {
+  background-image:
+  linear-gradient(to left, rgba(0, 0, 0, 0), rgba(21, 22, 31, 0.55)),
+  url('https://www.haworth.com/content/dam/haworth-com/global/inspiration---spaces---projects/customer-spaces/clemson/Clemson-ClientSpace-Lounge-Very-Haworth.jpg');
+  background-size: cover;
+}
+*/
+
+.info-panel {
+  background-color: #f8f9fa;
+  justify-content: center;
+}
+
+#homelink-img {
+  width: 100%;
+  height: 350px;
+  background: cover;
+  overflow: hidden;
+}
+
+#homeinfo-img {
+  width: 230px;
+  height: 230px;
+}
+
+#services {
+  color: black;
+}
+
+.section-1 {
+  width: 100%;
+}

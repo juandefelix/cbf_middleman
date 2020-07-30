@@ -1,0 +1,34 @@
+<div class="markets-panel bg-light ml-5 mr-5">
+  <div class="pt-4">
+    <h2 class="mb-5"><%=main_title%></h2>
+  </div>
+  <div class="row m-3 pb-5">
+    <div class="col">
+      <div class="card text-left rounded-0 border-top-0 border-bottom-0 border-right-0">
+        <div class="card-body pt-1 pl-4 pr-4">
+          <p><%=body_1%></p>
+          <p><%=body_2%></p>
+          <p><%=body_3%></p>
+          <ul class="product-examples">
+            <%products_list_items.each do |product|%>
+            <li><%=product%></li>
+            <%end%>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="col-4">
+      <div class="card text-center rounded-0 border-top-0 border-bottom-0 border-right-0">
+        <div class="card-body">
+          <h4 class="card-title mb-4"><%=projects_title%></h4>
+          <ul class="projects bg-white text-left mb-4">
+            <%projects_list_items.each do |project|%>
+            <li><%=project%></li>
+            <%end%>
+          </ul>
+          <a href="/portfolio" class="btn btn-danger">View All Projects</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

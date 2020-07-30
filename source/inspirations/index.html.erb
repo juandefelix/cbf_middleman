@@ -1,0 +1,58 @@
+<div class="container-fluid">
+  <div class="row">
+    <%banner_content = {
+      title: "Inspirations",
+      text: "With so much of your day spent in your work space, it's important for that space to inspire you. We can
+              help you get creative with how you dream, design, and build your space. Whether a small office
+              remodel or a new multi-building project, we can help you see the possibilities.",
+      image: 'https://www.haworth.com/content/dam/haworth-com/global/inspiration---spaces---projects/customer-spaces/epm/fletcher-systems-haworth-office-furniture-epm-case-study-6.jpg'
+    }%>
+    <%=partial "partials/banner", locals: banner_content%>
+  </div>
+</div>
+
+<div class="row inspirations mb-5 mt-5">
+  <%inspirations = 
+  [{title: "Inspiration 1", image:'src="https://www.haworth.com/content/dam/haworth-com/global/product-categories/projects/temp-spaces/harper-collins/HarperCollins-ClientSpace-Haworth.jpg"',
+    text: "Plants are cool. I'm inspired!"},
+  {title: "Inspiration 2", image:'src="https://www.haworth.com/content/dam/haworth-com/global/product-categories/projects/temp-spaces/harper-collins/HarperCollins-ClientSpace-OpenOffice2-Haworth.jpg"',
+    text: "Those look like fun people. I'm inspired!"},
+  {title: "Inspriation 3", image:'src="https://www.haworth.com/content/dam/haworth-com/global/product-categories/projects/temp-spaces/harper-collins/HarperCollins-ClientSpace-OpenOffice-Haworth.jpg"', 
+    text: "Good vibes here. I'm inspired!"}]
+  %>
+  <%inspirations.each do |inspiration| %>
+    <%=partial "partials/inspirations", locals: inspiration%>
+    <%end%>
+</div>
+
+<%#
+<div class="row inspirations mb-5 mt-5">
+  <div class="col-sm-3">
+    <div class="card rounded-0 border-0" style="width: 18rem;">
+    <img src="https://www.haworth.com/images/default-source/spaces/spaces-at-work/shanghai-community-atwork-spaces-haworth.jpg?sfvrsn=9a92ae59_2" class="card-img-top inspiration-img" alt="...">
+      <div class="card-body">
+          <h4>Inspiration 1</h4>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-3">
+    <div class="card rounded-0 border-0" style="width: 18rem;">
+    <img src="https://www.haworth.com/images/default-source/spaces/spaces-at-work/openest-community-atwork-spaces-haworth.jpg?sfvrsn=ac92ae59_2" class="card-img-top inspiration-img" alt="...">
+      <div class="card-body">
+      <h4>Inspiration 2</h4>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-3">
+    <div class="card rounded-0 border-0" style="width: 18rem;">
+    <img src="https://www.haworth.com/images/default-source/spaces/spaces-at-work/auckland-community-atwork-spaces-haworth.jpg?sfvrsn=b392ae59_2" class="card-img-top inspiration-img" alt="...">
+      <div class="card-body">
+          <h4>Inspiration 3</h4>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      </div>
+    </div>
+  </div>
+</div>
+%>

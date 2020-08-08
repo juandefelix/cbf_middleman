@@ -1,13 +1,6 @@
 <div class="container-fluid mt-0">
   <div class="row">
-    <%banner_content = {
-      title: "Awesome Workspaces<br>
-            Unrivaled Service<br>
-            Lifelong Partnerships",
-      text: "We partner with companies to design and install productive, comfortable, and attractive commercial office furniture for their employees and customers, regardless of budget or location.",
-      image: 'https://www.haworth.com/content/dam/haworth-com/global/product-categories/projects/temp-spaces/clemson-university/Clemson-ClientSpace-Lounge-Very-Haworth.jpg'
-    }%>
-    <%=partial "partials/banner", locals: banner_content%>
+    <%=partial "partials/banner", locals: data.index.banner_content %>
   </div>
 </div>
 

@@ -29,8 +29,12 @@ body {
   font-weight: 400;
 }
 
+#header-socials {
+  color: #dc3545;
+}
+
 i.fas, i.fab {
-  color: black;
+  color: white;
 }
 
 a {
@@ -41,14 +45,6 @@ a {
     color: rgba(#000, 0.6);
   }
 }
-/*
-.banner-home {
-  background-image:
-  linear-gradient(to left, rgba(0, 0, 0, 0), rgba(21, 22, 31, 0.55)),
-  url('https://www.haworth.com/content/dam/haworth-com/global/inspiration---spaces---projects/customer-spaces/clemson/Clemson-ClientSpace-Lounge-Very-Haworth.jpg');
-  background-size: cover;
-}
-*/
 
 .info-panel {
   background-color: #f8f9fa;

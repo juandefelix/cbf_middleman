@@ -1,11 +1,6 @@
 <div class="container-fluid">
   <div class="row">
-    <%banner_content = {
-      title: "Products",
-      text: "We're proud of what we offer. Below you can find examples of our top products along with a link to our full product library.",
-      image: 'https://www.haworth.com/content/dam/haworth-com/global/product-categories/projects/temp-spaces/hitt-contracting-co-lab/CoLab_Hitt_14.jpg'
-    }%>
-    <%=partial "partials/banner", locals: banner_content%>
+    <%=partial "partials/banner", locals: data.products.banner_content%>
   </div>
 </div>
 

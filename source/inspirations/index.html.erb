@@ -1,13 +1,6 @@
 <div class="container-fluid">
   <div class="row">
-    <%banner_content = {
-      title: "Inspirations",
-      text: "With so much of your day spent in your work space, it's important for that space to inspire you. We can
-              help you get creative with how you dream, design, and build your space. Whether a small office
-              remodel or a new multi-building project, we can help you see the possibilities.",
-      image: 'https://www.haworth.com/content/dam/haworth-com/global/inspiration---spaces---projects/customer-spaces/epm/fletcher-systems-haworth-office-furniture-epm-case-study-6.jpg'
-    }%>
-    <%=partial "partials/banner", locals: banner_content%>
+    <%=partial "partials/banner", locals: data.inspirations.banner_content%>
   </div>
 </div>
 

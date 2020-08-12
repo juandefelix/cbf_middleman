@@ -3,3 +3,35 @@ banner_content:
   title: Services
   text: We partner with companies to design and install productive, comfortable, and attractive commercial office furniture for their employees and customers, regardless of budget or location.
   image: https://www.haworth.com/content/dam/haworth-com/global/inspiration---spaces---projects/customer-spaces/ash-brokerage/Gallery%204.jpg
+
+services_info:
+  title: We care deeply about our work
+  text: Your office environment not only reflects your image, it also has a major impact on your employees
+        and the way they work. Our mission is to help you provide comfortable and efficient work environments 
+        that facilitate teamwork, increase worker productivity, promote worker health and safety, meet local codes 
+        and standards, and utilize your space effectively .Projects, big and small, all involve details, decisions 
+        and schedules. Relax!! Christianson's Business Furniture has years of experience coordinating building 
+        projects, and our goal is to make it a smooth and worry free process for you.
+
+services_offered:
+  - title: Space Planning and Design
+    hover_title: Space Planning and Design
+    hover_content: More info forthcoming!
+    icon: "fas fa-pencil-ruler fa-7x"
+  - title: Consulting
+    hover_title: Consulting
+    hover_content: More info forthcoming!
+    icon: "fas fa-people-arrows fa-7x"
+  - title: Delivery and Installation
+    hover_title: Delivery and Installation
+    hover_content: More info forthcoming!
+    icon: "fas fa-truck fa-7x"
+  - title: Project Management
+    hover_title: Project Management
+    hover_content: More info forthcoming!
+    icon: "fas fa-tasks fa-7x"
+  - title: Warranty and Repair
+    hover_title: Warranty and Repair
+    hover_content: More info forthcoming!
+    icon: "fas fa-tools fa-7x"
+

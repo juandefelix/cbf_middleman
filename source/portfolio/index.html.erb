@@ -4,40 +4,8 @@
   </div>
 </div>
 
-<%#I'll want to create a partial with the info below!%>
-
-<% products = [
-  {name: "one", image:'https://www.cbfplus.com/images/thumb-idea-starter02.jpg'},
-  {name: "two", image:'https://www.cbfplus.com/images/pict009-ergonomic-help-sm.jpg'},
-  {name: "three", image:'https://www.cbfplus.com/images/thumb-online-library02.jpg'},
-  {name: "four", image:'https://www.cbfplus.com/images/thumb-accent-pieces2.jpg'}]
-%>
-
 <div class="container projects mb-5">
-  <h1 class="mb-5">Project 1</h1>
-  <% 2.times do %>
-  <div class="row">
-    <% products.each do |product| %>
-    <div class="col-sm">
-      <img src="<%= product[:image] %>" >
-      <h2><%= product[:name] %></h2>
-    </div>
-    <% end %>
-  </div>
-  <% end %>
-</div>
-<div class="container projects mb-5">
-  <h1 class="mb-5">Project 2</h1>
-  <% 2.times do %>
-  <div class="row">
-    <% products.each do |product| %>
-    <div class="col-sm">
-      <img src="<%= product[:image] %>" >
-      <h2><%= product[:name] %></h2>
-    </div>
-    <% end %>
-  </div>
-  <% end %>
+  <%=partial "partials/portfolio-projects", locals: data.portfolio%>
 </div>
 
 <div class="info-panel row pt-5 pr-5 pl-5 ml-5 mr-5 mb-5">

@@ -1,0 +1,10 @@
+  <%services_offered.each do |service|%>
+  <div class="col-4 mt-3 mb-3">
+    <div class="card-services">
+      <div class="card-body">
+        <a tabindex="0" role="img" data-toggle="popover" data-trigger="hover" title=<%=service.hover_title%> data-content=<%=service.hover_content%>><i id="services" class='<%=service.icon%>'></i></a>
+        <p class="card-text"><%=service.title%></p>
+      </div>
+    </div>
+  </div>
+  <%end%>

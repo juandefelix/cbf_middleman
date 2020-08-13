@@ -16,22 +16,22 @@ services_info:
 services_offered:
   - title: Space Planning and Design
     hover_title: Space Planning and Design
-    hover_content: More info forthcoming!
+    content: More info forthcoming!
     icon: "fas fa-pencil-ruler fa-7x"
   - title: Consulting
     hover_title: Consulting
-    hover_content: More info forthcoming!
+    content: More info forthcoming!
     icon: "fas fa-people-arrows fa-7x"
   - title: Delivery and Installation
     hover_title: Delivery and Installation
-    hover_content: More info forthcoming!
+    content: More info forthcoming!
     icon: "fas fa-truck fa-7x"
   - title: Project Management
     hover_title: Project Management
-    hover_content: More info forthcoming!
+    content: More info forthcoming!
     icon: "fas fa-tasks fa-7x"
   - title: Warranty and Repair
     hover_title: Warranty and Repair
-    hover_content: More info forthcoming!
+    content: More info forthcoming!
     icon: "fas fa-tools fa-7x"
 

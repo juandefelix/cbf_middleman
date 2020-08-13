@@ -6,30 +6,32 @@
 
 <%=partial "partials/industries"%>
 
-<div class="row market-panel mb-5">
-  <%card_content = [
-    {title: "LOCAL & STATE GOVERNMENT", 
-     text: "Text about this particular market will go here!",
-     image: 'src="https://www.haworth.com/content/dam/haworth-com/global/product-categories/projects/temp-spaces/marriott-international/Marriott-ClientSpace-Windowseat-Haworth.jpg"',
-     href: '/government'},
-    {title: "CONTRACT", 
-     text: "Text about this particular market will go here!",
-     image: 'src="https://www.haworth.com/content/dam/haworth-com/global/inspiration---spaces---projects/customer-spaces/coretrust/Gallery%201.jpg"',
-     href: '/contract'},
-    {title: "HEALTHCARE", 
-     text: "Text about this particular market will go here!",
-     image: 'src="https://www.haworth.com/content/dam/haworth-com/global/brands/haworth-health/gallery-3.jpg"',
-     href: '/healthcare'},
-    {title: "HIGHER EDUCATION", 
-     text: "Text about this particular market will go here!",
-     image: 'src="https://www.haworth.com/content/dam/haworth-com/global/product-categories/projects/temp-spaces/convene/Convene-ClientSpace-training-Haworth.jpg"',
-     href: '/education'},
-    {title: "FINANCE", 
-     text: "Text about this particular market will go here!",
-     image: 'src="https://www.haworth.com/content/dam/haworth-com/global/inspiration---spaces---projects/customer-spaces/capital-one/capital-one-15.jpg"',
-     href: '/finance'}
-  ]%>
-  <%card_content.each do |card| %>
-    <%=partial "partials/markets", locals: card%>
-    <%end%>
+<div class="container-fluid">
+  <div class="row market-panel mb-5">
+    <%card_content = [
+      {title: "LOCAL & STATE GOVERNMENT", 
+      text: "Text about this particular market will go here!",
+      image: 'src="https://www.haworth.com/content/dam/haworth-com/global/product-categories/projects/temp-spaces/marriott-international/Marriott-ClientSpace-Windowseat-Haworth.jpg"',
+      href: '/government'},
+      {title: "CONTRACT", 
+      text: "Text about this particular market will go here!",
+      image: 'src="https://www.haworth.com/content/dam/haworth-com/global/inspiration---spaces---projects/customer-spaces/coretrust/Gallery%201.jpg"',
+      href: '/contract'},
+      {title: "HEALTHCARE", 
+      text: "Text about this particular market will go here!",
+      image: 'src="https://www.haworth.com/content/dam/haworth-com/global/brands/haworth-health/gallery-3.jpg"',
+      href: '/healthcare'},
+      {title: "HIGHER EDUCATION", 
+      text: "Text about this particular market will go here!",
+      image: 'src="https://www.haworth.com/content/dam/haworth-com/global/product-categories/projects/temp-spaces/convene/Convene-ClientSpace-training-Haworth.jpg"',
+      href: '/education'},
+      {title: "FINANCE", 
+      text: "Text about this particular market will go here!",
+      image: 'src="https://www.haworth.com/content/dam/haworth-com/global/inspiration---spaces---projects/customer-spaces/capital-one/capital-one-15.jpg"',
+      href: '/finance'}
+    ]%>
+    <%card_content.each do |card| %>
+      <%=partial "partials/markets", locals: card%>
+      <%end%>
+  </div>
 </div>

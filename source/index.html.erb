@@ -4,58 +4,34 @@
   </div>
 </div>
 
-<div class="row justify-content-center ">
+<div class="row justify-content-center">
   <div class="card vision-statement mb-5 rounded-0">
     <div class="card-header">
-      <h3>Vision Statement</h3>
+      <h3><%=data.index.vision_statement.title%></h3>
     </div>
     <div class="card-body">
-      <h5 class="card-text" style="font-style: italic">"To be recognized as the leading office dealer in our community, providing superior quality, value and customer service."</h5>
+      <h5 class="card-text" style="font-style: italic"><%=data.index.vision_statement.text%></h5>
     </div>
   </div>
 </div>
 
 <div class="row mb-5">
-  <%card_content = [
-    {title: "Christiansons Business Furniture", 
-     text: "Providing Efficient and Ergonomic Work Environments with a Commitment to Quality, Value and Customer Service",
-     image: 'src="https://www.cbfplus.com/images/25th jpeg-sm.jpg"'},
-    {title: "Returning to Work(places)", 
-     text: "What will work look like post-pandemic? There are many new unknowns, and we can help you navigate the changes necessary.",
-     image: 'src="https://www.haworth.com/content/dam/digital/north-american-assets/knowledge-and-research/customer-stories/smart---biggar/SmartandBiggar-13.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg"'}
-  ]%>
-  <%card_content.each do |card| %>
+  <%data.index.info_card_content.each do |card| %>
     <%=partial "partials/cbf25", locals: card%>
     <%end%>
 </div>
 
 <div class="row row-cols-1 row-cols-md-2 mb-5">
-  <%card_content = [
-    {title: "Portfolio", 
-     text: "CBF has been serving Fargo-Moorhead and the surrounding region for over 25 years. Click below to view our portfolio.",
-     image: 'src="https://www.haworth.com/content/dam/haworth-com/global/product-categories/projects/temp-spaces/convene/Convene-ClientSpace-Lounge-Archibald-Haworth.jpg"',
-     href: '/portfolio'},
-    {title: "Services", 
-     text: "There's more than meets the eye when it comes to furniture. Click to get an idea of our process here at CBF.",
-     image: 'src="https://www.haworth.com/content/dam/haworth-com/global/products/desks-workspaces/premise/hero-carousel/premise-0908-009_edit.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg"',
-     href: '/services'}
-  ]%>
-  <%card_content.each do |card|%>
-    <%=partial "partials/homelinkcards", locals: card%>
+  <%data.index.port_serv_cards_content.each do |card|%>
+    <%=partial "partials/port-serv-cards", locals: card%>
     <%end%>
 </div>
 
 <div class="container mb-5 border-bottom">
   <div class="row mb-5">
-    <div class="col-md-4">
-      <img src="https://www.cbfplus.com/images/BIC_2018_wide_Color_000.jpg" class="img-fluid">
-    </div>
-    <div class="col-md-4">
-      <img src="https://www.cbfplus.com/images/BIC_2018_wide_Color_000.jpg" class="img-fluid">
-    </div>
-    <div class="col-md-4">
-      <img src="https://www.cbfplus.com/images/BIC_2018_wide_Color_000.jpg" class="img-fluid">
-    </div>
+    <%data.index.best_in_class_content.each do |image|%>
+      <%=partial "partials/best-in-class", locals: image%>
+      <%end%>
   </div>
 </div>
 

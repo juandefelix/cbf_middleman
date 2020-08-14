@@ -5,4 +5,32 @@ banner_content:
         - Unrivaled Service
         - Lifelong Partnerships
   text: We partner with companies to design and install productive, comfortable, and attractive commercial office furniture for their employees and customers, regardless of budget or location.
-  image: https://www.haworth.com/content/dam/haworth-com/global/product-categories/projects/temp-spaces/clemson-university/Clemson-ClientSpace-Lounge-Very-Haworth.jpg
+  image: "https://www.haworth.com/content/dam/haworth-com/global/product-categories/projects/temp-spaces/clemson-university/Clemson-ClientSpace-Lounge-Very-Haworth.jpg"
+
+vision_statement:
+  title: Vision Statement
+  text: To be recognized as the leading office dealer in our community, providing superior quality, value and customer service.
+
+info_card_content:
+  - title: Christiansons Business Furniture
+    text: Providing Efficient and Ergonomic Work Environments with a Commitment to Quality, Value and Customer Service
+    image: "http://cbfplus.com/images/25th-smaller.png"
+  - title: Returning to Work(places)
+    text: What will work look like post-pandemic? There are many new unknowns, and we can help you navigate the changes necessary.
+    image: "https://www.haworth.com/content/dam/digital/north-american-assets/knowledge-and-research/customer-stories/smart---biggar/SmartandBiggar-13.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg"
+
+port_serv_cards_content:
+  - title: Portfolio
+    text: CBF has been serving Fargo-Moorhead and the surrounding region for over 25 years. Click below to view our portfolio.
+    image: "https://www.haworth.com/content/dam/haworth-com/global/product-categories/projects/temp-spaces/convene/Convene-ClientSpace-Lounge-Archibald-Haworth.jpg"
+    href: '/portfolio'
+  - title: Services
+    text: There's more than meets the eye when it comes to furniture. Click to get an idea of our process here at CBF.
+    image: "https://www.haworth.com/content/dam/haworth-com/global/products/desks-workspaces/premise/hero-carousel/premise-0908-009_edit.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg"
+    href: '/services'
+
+best_in_class_content:
+  - image: "https://www.cbfplus.com/images/BIC_2018_wide_Color_000.jpg"
+  - image: "https://www.cbfplus.com/images/BIC_2018_wide_Color_000.jpg"
+  - image: "https://www.cbfplus.com/images/BIC_2018_wide_Color_000.jpg"
+  

@@ -1,0 +1,12 @@
+  <%projects.each do |project|%>
+  <div>
+    <h1 class="mb-5 pt-3"><%=project.title%></h1>
+    <div class="row mb-4">
+      <%project.images.each do |image|%>
+      <div class="col-sm">
+        <img src=<%=image%>>
+      </div>
+      <%end%>
+    </div>
+  </div>
+  <%end%>

@@ -1,23 +1,12 @@
 <div class="container-fluid">
   <div class="row">
-    <%banner_content = {
-      title: "Services",
-      text: "We partner with companies to design and install productive, comfortable, and attractive commercial office furniture for their employees and customers, regardless of budget or location.",
-      image: 'https://www.haworth.com/content/dam/haworth-com/global/inspiration---spaces---projects/customer-spaces/ash-brokerage/Gallery%204.jpg'
-    }%>
-    <%=partial "partials/banner", locals: banner_content%>
+    <%=partial "partials/banner", locals: data.services.banner_content%>
   </div>
 </div>
 
 <div class="info-panel pt-5 pr-5 pb-5 pl-5 ml-5 mr-5 mb-5">
-  <h1 class="mb-5">We care deeply about our work</h1>
-  <p class="mb-5">Your office environment not only reflects your image, it also has a major impact on your employees
-  and the way they work. Our mission is to help you provide comfortable and efficient work environments 
-  that facilitate teamwork, increase worker productivity, promote worker health and safety, meet local codes 
-  and standards, and utilize your space effectively .Projects, big and small, all involve details, decisions 
-  and schedules. Relax!! Christianson's Business Furniture has years of experience coordinating building 
-  projects, and our goal is to make it a smooth and worry free process for you.
-  </p>
+  <h1 class="mb-5"><%=data.services.services_info.title%></h1>
+  <p class="mb-5"><%=data.services.services_info.text%></p>
 </div>
 
 <div class="row justify-content-center">
@@ -27,44 +16,5 @@
 </div>
 
 <div class="row justify-content-center">
-  <div class="col-4 mt-3 mb-3">
-    <div class="card-services">
-      <div class="card-body">
-        <a tabindex="0" role="img" data-toggle="popover" data-trigger="hover" title="Space Planning and Design" data-content="More info forthcoming!"><i id="services" class="fas fa-pencil-ruler fa-7x"></i></a>
-        <p class="card-text">Space Planning and Design</p>
-      </div>
-    </div>
-  </div>
-  <div class="col-4 mt-3 mb-3">
-    <div class="card-services">
-      <div class="card-body">
-        <a tabindex="0" role="img" data-toggle="popover" data-trigger="hover" title="Consulting" data-content="More info forthcoming!"><i id="services" class="fas fa-people-arrows fa-7x"></i></a>
-        <p class="card-text">Consulting</p>
-      </div>
-    </div>
-  </div>
-  <div class="col-4 mt-3 mb-3">
-    <div class="card-services">
-      <div class="card-body">
-        <a tabindex="0" role="img" data-toggle="popover" data-trigger="hover" title="Delivery and Installation" data-content="More info forthcoming!"><i id="services" class="fas fa-truck fa-7x"></i></a>
-        <p class="card-text">Delivery and Installation</p>
-      </div>
-    </div>
-  </div>
-  <div class="col-4 mt-3 mb-3">
-    <div class="card-services">
-      <div class="card-body">
-        <a tabindex="0" role="img" data-toggle="popover" data-trigger="hover" title="Project Management" data-content="More info forthcoming!"><i id="services" class="fas fa-tasks fa-7x"></i></a>
-        <p class="card-text">Project Management</p>
-      </div>
-    </div>
-  </div>
-  <div class="col-4 mt-3 mb-3">
-    <div class="card-services">
-      <div class="card-body">
-        <a tabindex="0" role="img" data-toggle="popover" data-trigger="hover" title="Warranty and Repair" data-content="More info forthcoming!"><i id="services" class="fas fa-tools fa-7x"></i></a>
-        <p class="card-text">Warranty and Repair</p>
-      </div>
-    </div>
-  </div>
+    <%=partial "partials/services-offered", locals: data.services%>
 </div>

@@ -1,0 +1,31 @@
+---
+banner_content:
+  title: Healthcare
+  text: Every client we work with comes from a unique setting. The varied markets we serve provide examples of the myriad ways we can help you design and build your ideal workspace.
+  image: https://www.haworth.com/content/dam/haworth-com/global/product-categories/projects/temp-spaces/cincinnati-children%27s-hospital/CCH-ClientSpace-Office-Haworth.jpg
+
+health_content:
+  main_title: Furniture solutions for hospitals, clinics, and medical centers
+  body_1: BII understands classrooms are dynamic environments and are ever changing in order to keep students interested and to 
+          facilitate teachers' needs. Products that are durable and inviting promote learning outside the classroom in areas such as 
+          libraries, lounges, computer labs, cafeterias, and hallways. BII’s knowledge and partnerships with K-12 and Higher Education 
+          furniture manufacturers is key to keeping up with technological changes and the diverse learning styles of every student. As 
+          technology and today’s work environments shift, it is increasingly important to prepare educational environments for the 
+          collegiate and work environments students will eventually encounter.
+  body_2: BII's experienced staff is available for onsite consultation. Services offered vary from complete building space planning, 
+          furniture specification, project management and installation. BII’s diverse product offerings are available on multiple public 
+          purchasing contracts such US Communities, National IPA, and KCDA, which allows BII to provide learning centers with the right 
+          products for the best value.
+  body_3: ""
+  products_list_items: 
+    - Classrooms
+    - Technology / Computer Labs
+    - Library 
+    - Cafeteria / Food Courts
+    - Music / Performing Arts / Auditorium
+    - Science / Industrial Tech and Arts
+  projects_title: Government Projects
+  projects_list_items:
+    - Project 1
+    - Project 2
+    - Project 3

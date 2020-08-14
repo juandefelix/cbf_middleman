@@ -1,36 +1,20 @@
 <div class="container-fluid">
   <div class="row">
-    <%banner_content = {
-      title: "All About Us",
-      text: "Christianson's Business Furniture is a privately held corporation founded in 1993. We are a full service contract office furniture dealer, assisting designers, architects and end-users in North Dakota and Minnesota.
-          We are a Preferred Dealer of Haworth furniture; a status attained after significant commitments have been achieved regarding Haworth focus, showroom facilities, sales, design and installation training as well as customer service.
-          For three straight years we've achieved the Haworth Best In Class status which is accomplished by meeting standards in all areas of dealer performances and operations as set by Haworth and our industry.",
-      image: 'https://www.haworth.com/content/dam/haworth-com/global/inspiration---spaces---projects/customer-spaces/zev-yaroslavsky-family-support-center/Gallery%203.jpg'
-    }%>
-    <%=partial "partials/banner", locals: banner_content%>
+    <%=partial "partials/banner", locals: data.about.banner_content%>
     </div>
 </div>
 
 <div class="container mb-5">
   <div class="row justify-content-center">
     <div class="mb-4 border-bottom">
-      <h1>Why we're here</h1>
+      <h1><%=data.about.info_content.title%></h1>
     </div>
   </div>
-  <p class="mb-5">We design workspaces and install furniture, but that’s not what drives us. Our core purpose
-    is to Create Culture, Build Community, and Enrich Lives. We seek to achieve this goal for every client 
-    through each project we undertake and the long-term customer relationships we’ve developed over the 
-    last three decades are a testament to that commitment.</p>
+  <p class="mb-5"><%=data.about.info_content.text%></p>
   <div class="row">
-    <div class="col-sm">
-      <img src="https://www.haworth.com/content/dam/haworth-com/global/inspiration---spaces---projects/customer-spaces/coretrust/Gallery%202.jpg" class="img-fluid about-img" alt="Responsive image">
-    </div>
-    <div class="col-sm">
-      <img src="https://www.haworth.com/content/dam/haworth-com/global/inspiration---spaces---projects/customer-spaces/ash-brokerage/Banner-D.jpg" class="img-fluid about-img" alt="Responsive image">
-    </div>
-    <div class="col-sm">
-      <img src="https://www.haworth.com/content/dam/haworth-com/global/inspiration---spaces---projects/customer-spaces/ash-brokerage/Gallery%207.jpg" class="img-fluid about-img" alt="Responsive image">
-    </div>
+    <%data.about.info_images.each do |image|%>
+      <%=partial "partials/about-info-images", locals: image%>
+      <%end%>
   </div>
 </div>
 
@@ -40,42 +24,21 @@
   </div>
 </div>
 
-<% members = 
-[{full_name: "Roger Christianson", 
-  first_name: "Roger",
-  image:'https://www.cbfplus.com/images/team-roger.jpg',
-  about: "Roger is the founder and president of CBF."},
-{full_name: "Rick Buchholz", 
- first_name: "Rick",
- image:'https://www.cbfplus.com/images/team-rick.jpg',
- about: "Rick is the vice president of CBF."},
-{full_name: "Kim Christianson",
- first_name: "Kim",
- image:'https://www.cbfplus.com/images/team-kim.jpg',
- about: "Kim is the marketing director at CBF."},
-{full_name: "Rich Fenno", 
- first_name: "Rich",
- image:'https://www.cbfplus.com/images/team-rich.jpg',
- about: "Rich is a salesman at CBF."}]
-%>
-
 <div class="container mb-5">
   <div class="row justify-content-center">
     <div class="mb-4 border-bottom">
-      <h1>Our Team</h1>
+      <h1><%=data.about.team_content.title%></h1>
     </div>
   </div>
-  <p class="mb-5">Our team of account managers, interior designers, project managers, and installers will ensure 
-  that your commercial furniture project is executed beautifully from design inception to final punch. 
-  Here's who you will meet when you work with us:</p>
+  <p class="mb-5"><%=data.about.team_content.text%></p>
   <% 5.times do %>
   <div class="row">
-    <% members.each do |member| %>
+    <% data.about.team_members.each do |member| %>
     <div class="col-sm mb-5">
-      <a tabindex="0" role="img" data-toggle="popover" data-trigger="hover" title="About <%=member[:first_name]%>" data-content="<%=member[:about]%>"><img src="<%=member[:image]%>" class="rounded-lg"></a>
-      <h5 class="mt-2"><%= member[:full_name] %></h5>
+      <a tabindex="0" role="img" data-toggle="popover" data-trigger="hover" title="About <%=member.first_name%>" data-content="<%=member.about%>"><img src="<%=member.image%>" class="rounded-lg"></a>
+      <h5 class="mt-2"><%=member.full_name%></h5>
     </div>
-    <% end %>
+    <%end%>
   </div>
   <%end%>
 </div>

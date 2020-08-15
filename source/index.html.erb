@@ -4,27 +4,33 @@
   </div>
 </div>
 
-<div class="row justify-content-center">
-  <div class="card vision-statement mb-5 rounded-0">
-    <div class="card-header">
-      <h3><%=data.index.vision_statement.title%></h3>
-    </div>
-    <div class="card-body">
-      <h5 class="card-text" style="font-style: italic"><%=data.index.vision_statement.text%></h5>
+<div class="container-fluid">
+  <div class="row justify-content-center">
+    <div class="card vision-statement mb-5 rounded-0">
+      <div class="card-header">
+        <h3><%=data.index.vision_statement.title%></h3>
+      </div>
+      <div class="card-body">
+        <h5 class="card-text" style="font-style: italic"><%=data.index.vision_statement.text%></h5>
+      </div>
     </div>
   </div>
 </div>
 
-<div class="row mb-5">
-  <%data.index.info_card_content.each do |card| %>
-    <%=partial "partials/cbf25", locals: card%>
-    <%end%>
+<div class="container-fluid">
+  <div class="row mb-5">
+    <%data.index.info_card_content.each do |card| %>
+      <%=partial "partials/cbf25", locals: card%>
+      <%end%>
+  </div>
 </div>
 
-<div class="row row-cols-1 row-cols-md-2 mb-5">
-  <%data.index.port_serv_cards_content.each do |card|%>
-    <%=partial "partials/port-serv-cards", locals: card%>
-    <%end%>
+<div class="container-fluid">
+  <div class="row row-cols-1 row-cols-md-2 mb-5">
+    <%data.index.port_serv_cards_content.each do |card|%>
+      <%=partial "partials/port-serv-cards", locals: card%>
+      <%end%>
+  </div>
 </div>
 
 <div class="container mb-5 border-bottom">

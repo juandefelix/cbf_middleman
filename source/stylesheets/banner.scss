@@ -1,0 +1,97 @@
+/*  Will I neeed this?
+.background-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9;
+}
+*/
+
+.hero {
+  position: relative;
+  background: no-repeat center top;
+  min-height: 510px;
+  background-size: cover;
+  padding: 65px 0;
+  background-position: left;
+  color: #fff;
+}
+
+.hero h1 {
+  padding-bottom: 20px;
+  margin-bottom: 46px;
+  font-size: 3em;
+  position: relative;
+  text-transform: uppercase;
+  margin-top: 5px;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  white-space: nowrap;
+}
+
+.hero h1:after {
+  content: '';
+  display: block;
+  width: 229%;
+  height: 3px;
+  position: absolute;
+  bottom: -7px;
+  left: -146%;
+  background: linear-gradient(to right, #fff, rgba(255,0,0,0));
+  background-size: 97% 13px;
+  background-repeat: no-repeat;
+}
+
+/*
+.hero-img-content {
+  padding-top: 50px;
+  padding-bottom: 100px; 
+}
+*/
+.hero-content {
+  position: relative;
+  z-index: 99;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 992px) {
+.text-lg-left {
+    text-align: left !important;
+  }
+}
+
+@media (min-width: 992px) {
+.col-lg-4 {
+    flex: 0 0 33.3333333333%;
+    max-width: 33.3333333333%;
+  }
+}
+
+

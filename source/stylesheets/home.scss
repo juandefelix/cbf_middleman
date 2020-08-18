@@ -1,6 +1,6 @@
 
 #homeinfo-img {
-    width: 230px;
+    width: 250px;
     height: 230px;
   }
 
@@ -18,4 +18,16 @@ p {
 
 .vision-statement {
     width: 75%;
+}
+
+@media (max-width: 768px) {
+    .home-image-container {
+        padding-top: 1.5em;
+    }
+}
+
+@media (max-width: 576px) {
+    .home-image-container {
+        padding: 3em 3em 0 3em;
+    }
 }

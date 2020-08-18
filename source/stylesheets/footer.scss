@@ -1,5 +1,4 @@
 .footer {
-    display: inline-flex;
     width: 100%;
     padding: 50px 0 40px;
     margin-top: 50px;
@@ -17,3 +16,9 @@
 p i.fas, i.fab {
     color: white;
   }
+
+@media (max-width: 768px) {
+    .contact-info {
+        text-align: center;
+    }
+}

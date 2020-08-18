@@ -81,6 +81,13 @@
   }
 }
 
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2em;
+  }
+}
+
+
 @media (min-width: 992px) {
 .text-lg-left {
     text-align: left !important;

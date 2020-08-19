@@ -5,3 +5,23 @@
 #phone {
     color: #dc3545;
 }
+
+.projects img {
+    width: 280px;
+    height: 170px;
+}
+
+@media (max-width: 768px) {
+    .projects img {
+        padding-bottom: 25px;
+    };
+    .info-panel .btn-outline-danger {
+        margin-bottom: 20px;
+    }   
+}
+
+@media (min-width: 768px) {
+    .info-panel .btn-outline-danger {
+        margin-right: 30px;
+    }
+}

@@ -17,3 +17,9 @@
   background: cover;
   overflow: hidden;
 }
+
+@media (max-width: 768px) {
+  .projects-col {
+    padding-top: 30px;
+  }
+}

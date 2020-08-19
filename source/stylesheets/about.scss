@@ -6,3 +6,9 @@
 .bg-vid {
     background-color: #6c757d;
 } 
+
+@media (max-width: 768px) {
+    .about-content img {
+        padding-top: 30px;
+    }
+}

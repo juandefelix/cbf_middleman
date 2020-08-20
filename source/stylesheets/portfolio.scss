@@ -1,27 +1,41 @@
-.projects {
-    background-color: #f8f9fa;
-}
-
 #phone {
     color: #dc3545;
 }
 
-.projects img {
+.project img {
     width: 280px;
     height: 170px;
 }
 
-@media (max-width: 768px) {
-    .projects img {
-        padding-bottom: 25px;
-    };
+@media (min-width: 550px) {
+    .info-panel .btn-outline-danger {
+        margin-right: 20px;
+    }
+}
+
+@media (min-width: 576px) {
+    .info-panel .btn-outline-danger {
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 576px) {
     .info-panel .btn-outline-danger {
         margin-bottom: 20px;
-    }   
+    }
+}
+
+@media (max-width: 768px) {
+    .project img {
+        padding-bottom: 25px;
+    };
 }
 
 @media (min-width: 768px) {
     .info-panel .btn-outline-danger {
         margin-right: 30px;
+    };
+    .project img {
+        margin-top: 30px;
     }
 }

@@ -19,7 +19,7 @@
 <div class="container-fluid mt-5 bg-light pt-3 pl-3 pb-3 pr-3">
   <h3 class="mb-5">Examples of Ergonomic products</h3>
   <% 2.times do %>
-  <div class="row">
+  <div class="row row-cols-1 row-cols-xs-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 justify-content-center">
     <% products.each do |product| %>
     <div class="col-sm">
       <img src="<%= product[:image] %>">

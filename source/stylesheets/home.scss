@@ -26,8 +26,15 @@ p {
     }
 }
 
+@media (max-width: 992px) {
+    .home-info {
+        padding-top: 30px;
+    }
+}
+
 @media (max-width: 576px) {
     .home-image-container {
         padding: 3em 3em 0 3em;
     }
 }
+

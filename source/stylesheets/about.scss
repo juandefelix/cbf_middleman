@@ -1,6 +1,6 @@
 .about-img {
     width: 400px;
-    height: 200px;
+    height: 240px;
 }
 
 .bg-vid {
@@ -9,6 +9,12 @@
 
 @media (max-width: 768px) {
     .about-content img {
+        padding-top: 30px;
+    }
+}
+
+@media (min-width: 768px) {
+    .about-img {
         padding-top: 30px;
     }
 }

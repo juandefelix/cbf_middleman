@@ -10,16 +10,35 @@
 .market-header {
   color: #BBBDBC;
 }
-
+/*
 #market-image {
-  width: 400px;
-  height: 270px;
   background: cover;
   overflow: hidden;
 }
-
-@media (max-width: 768px) {
+*/
+@media (max-width: 992px) {
   .projects-col {
     padding-top: 30px;
   }
 }
+
+@media (min-width: 576px) {
+  .market-panel img {
+    width: 400px;
+    height: 225px;
+  }
+}
+
+@media (max-width: 576px) {
+  .market-panel img {
+    width: 350px;
+    height: 200px;
+  }
+}
+
+/*
+
+width: 400px;
+height: 270px;
+
+*/

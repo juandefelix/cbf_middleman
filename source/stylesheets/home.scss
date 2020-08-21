@@ -1,8 +1,16 @@
 
 #homeinfo-img {
-    width: 250px;
-    height: 230px;
+    width: 100%px;
+    height: 55%;
   }
+
+
+#homelink-img {
+    width: 100%;
+    height: 350px;
+    background: cover;
+    overflow: hidden;
+}
 
 .card-main {
     text-align: left;
@@ -18,6 +26,13 @@ p {
 
 .vision-statement {
     width: 75%;
+}
+
+@media (min-width: 576px) {
+    .home-info {
+        margin-top: 60px;
+        margin-bottom: 80px;
+    }
 }
 
 @media (max-width: 768px) {

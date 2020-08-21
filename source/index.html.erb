@@ -17,18 +17,10 @@
   </div>
 </div>
 
-<div class="container-fluid">
-  <div class="row row-cols-1 row-cols-md-1 row-cols-lg-2 mb-5">
+<div class="container-fluid home-info">
+  <div class="row row-cols-1 row-cols-sm-1 row-cols-md-2 row-cols-lg-3">
     <%data.index.info_card_content.each do |card| %>
       <%=partial "partials/cbf25", locals: card%>
-      <%end%>
-  </div>
-</div>
-
-<div class="container-fluid">
-  <div class="row row-cols-1 row-cols-md-2 mb-5">
-    <%data.index.port_serv_cards_content.each do |card|%>
-      <%=partial "partials/port-serv-cards", locals: card%>
       <%end%>
   </div>
 </div>
@@ -37,6 +29,14 @@
   <div class="row mb-5">
     <%data.index.best_in_class_content.each do |image|%>
       <%=partial "partials/best-in-class", locals: image%>
+      <%end%>
+  </div>
+</div>
+
+<div class="container-fluid">
+  <div class="row row-cols-1 row-cols-md-2 mb-5">
+    <%data.index.port_serv_cards_content.each do |card|%>
+      <%=partial "partials/port-serv-cards", locals: card%>
       <%end%>
   </div>
 </div>

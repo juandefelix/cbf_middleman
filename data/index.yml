@@ -12,12 +12,18 @@ vision_statement:
   text: To be recognized as the leading office dealer in our community, providing superior quality, value and customer service.
 
 info_card_content:
-  - title: Christiansons Business Furniture
+  - title: Christianson's Business Furniture
     text: Providing Efficient and Ergonomic Work Environments with a Commitment to Quality, Value and Customer Service
     image: "http://cbfplus.com/images/25th-smaller.png"
+    href: ""
+  - title: Bring Haworth Home
+    text: You can order the furniture you want!
+    image: "http://cbfplus.com/images/banner-250px.jpg"
+    href: "https://store.haworth.com/pages/dealer-referral?dcode=A9705"
   - title: Returning to Work(places)
     text: What will work look like post-pandemic? There are many new unknowns, and we can help you navigate the changes necessary.
     image: "https://www.haworth.com/content/dam/digital/north-american-assets/knowledge-and-research/customer-stories/smart---biggar/SmartandBiggar-13.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg"
+    href: ""
 
 port_serv_cards_content:
   - title: Portfolio

@@ -34,7 +34,7 @@
   </div>
   <p class="mb-5"><%=data.about.team_content.text%></p>
   <% 5.times do %>
-  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4">
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 justify-content-center">
     <% data.about.team_members.each do |member| %>
     <div class="col-sm mb-5">
       <a tabindex="0" role="img" data-toggle="popover" data-trigger="hover" title="About <%=member.first_name%>" data-content="<%=member.about%>"><img src="<%=member.image%>" class="rounded-lg"></a>

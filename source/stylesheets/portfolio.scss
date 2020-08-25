@@ -7,10 +7,14 @@
     height: 170px;
 }
 
-@media (min-width: 550px) {
+@media (min-width: 576px) {
+    .btn-div {
+        display: inline-flex;
+    };
     .info-panel .btn-outline-danger {
         margin-right: 20px;
     }
+
 }
 
 @media (min-width: 576px) {

@@ -15,12 +15,6 @@
   overflow: hidden;
 }
 
-/*
-#market-image {
-  background: cover;
-  overflow: hidden;
-}
-*/
 
 /* this is for the individual market content pages */
 @media (min-width: 992px) {
@@ -35,16 +29,24 @@
   }
 }
 
-@media (min-width: 792px) {
+@media (min-width: 768px) {
   .market-panel img {
     width: 400px;
     height: 225px;
+  };
+  .market-content {
+    margin-left: 30px;
+    margin-right: 30px;
   }
 }
 
-@media (max-width: 792px) {
+@media (max-width: 768px) {
   .market-panel img {
     width: 350px;
     height: 200px;
+  };
+  .market-content {
+    margin-left: 0px;
+    margin-right: 0px;
   }
 }

@@ -1,9 +1,23 @@
 .industries-img {
-    width: 350px;
-    height: 175px;
+  width: 350px;
+  height: 175px;
 }
 
 .info-panel {
-    background-color: #f8f9fa;
-    justify-content: center;
+  background-color: #f8f9fa;
+  justify-content: center;
+}
+
+@media (max-width: 768px) {
+  .info-panel {
+    margin-right: 0px;
+    margin-left: 0px;
   }
+}
+
+@media (min-width: 768px) {
+  .info-panel {
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+}

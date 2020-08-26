@@ -6,9 +6,7 @@
 
 <%=partial "partials/industries"%>
 
-<div class="container-fluid">
-  <div class="row market-panel mb-5">
-    <%card_content = [
+<%card_content = [
       {title: "LOCAL & STATE GOVERNMENT", 
       text: "Text about this particular market will go here!",
       image: 'src="https://www.haworth.com/content/dam/haworth-com/global/product-categories/projects/temp-spaces/marriott-international/Marriott-ClientSpace-Windowseat-Haworth.jpg"',
@@ -30,6 +28,9 @@
       image: 'src="https://www.haworth.com/content/dam/haworth-com/global/inspiration---spaces---projects/customer-spaces/capital-one/capital-one-15.jpg"',
       href: '/finance'}
     ]%>
+
+<div class="container">
+  <div class="row row-cols-1 row-cols-sm-1 market-panel mb-5">
     <%card_content.each do |card| %>
       <%=partial "partials/markets", locals: card%>
       <%end%>

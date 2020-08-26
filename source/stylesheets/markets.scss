@@ -11,9 +11,40 @@
   color: #BBBDBC;
 }
 
+.market-panel img {
+  overflow: hidden;
+}
+
+/*
 #market-image {
-  width: 400px;
-  height: 270px;
   background: cover;
   overflow: hidden;
+}
+*/
+
+/* this is for the individual market content pages */
+@media (min-width: 992px) {
+  .info-panel .card-body {
+    padding-left: 40px;
+  }
+}
+
+@media (max-width: 992px) {
+  .projects-col {
+    padding-top: 30px;
+  }
+}
+
+@media (min-width: 792px) {
+  .market-panel img {
+    width: 400px;
+    height: 225px;
+  }
+}
+
+@media (max-width: 792px) {
+  .market-panel img {
+    width: 350px;
+    height: 200px;
+  }
 }

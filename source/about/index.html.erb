@@ -4,21 +4,21 @@
     </div>
 </div>
 
-<div class="container mb-5">
+<div class="container about-content mb-5">
   <div class="row justify-content-center">
     <div class="mb-4 border-bottom">
       <h1><%=data.about.info_content.title%></h1>
     </div>
   </div>
   <p class="mb-5"><%=data.about.info_content.text%></p>
-  <div class="row">
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 justify-content-center">
     <%data.about.info_images.each do |image|%>
       <%=partial "partials/about-info-images", locals: image%>
       <%end%>
   </div>
 </div>
 
-<div class="container-fluid">
+<div class="container">
   <div class="row mt-5 mb-5 ml-2 mr-2 bg-vid ">
     <div class="col-12 pt-5 pb-5">
       <img src="https://www.cbfplus.com/images/video01.jpg" class="img-fluid" alt="Responsive image">
@@ -34,7 +34,7 @@
   </div>
   <p class="mb-5"><%=data.about.team_content.text%></p>
   <% 5.times do %>
-  <div class="row">
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 justify-content-center">
     <% data.about.team_members.each do |member| %>
     <div class="col-sm mb-5">
       <a tabindex="0" role="img" data-toggle="popover" data-trigger="hover" title="About <%=member.first_name%>" data-content="<%=member.about%>"><img src="<%=member.image%>" class="rounded-lg"></a>

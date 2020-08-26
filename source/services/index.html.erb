@@ -4,14 +4,14 @@
   </div>
 </div>
 
-<div class="container-fluid">
+<div class="container">
   <div class="info-panel pt-5 pr-5 pb-5 pl-5 ml-3 mr-3 mb-5">
     <h1 class="mb-5"><%=data.services.services_info.title%></h1>
     <p class="mb-5"><%=data.services.services_info.text%></p>
   </div>
 </div>
 
-<div class="container-fluid">
+<div class="container">
   <div class="row justify-content-center">
     <div class="mb-4 border-bottom">
       <h2>What we offer at CBF</h2>
@@ -19,8 +19,8 @@
   </div>
 </div>
 
-<div class="container-fluid">
-  <div class="row justify-content-center">
+<div class="container">
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 justify-content-center">
       <%=partial "partials/services-offered", locals: data.services%>
   </div>
 </div>

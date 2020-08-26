@@ -1,5 +1,4 @@
 .footer {
-    display: inline-flex;
     width: 100%;
     padding: 50px 0 40px;
     margin-top: 50px;
@@ -11,9 +10,34 @@
 .footer img {
     height: 100px;
     width: 100px;
-    margin-right: 50px;
 }
 
 p i.fas, i.fab {
     color: white;
   }
+
+@media (max-width: 768px) {
+    .contact-info {
+        text-align: center;
+    };
+    .socials p {
+        margin-top: 10px;
+        margin-bottom: 30px;
+    };
+    .contact-info a {
+        padding-right: 10px;
+    }
+}
+
+@media (min-width: 768px) {
+    .contact-info {
+        text-align: left;
+        margin-left: 50px;
+    };
+    .contact-info a {
+        padding-right: 20px;
+    }
+    .footer img {
+        margin-right: 50px;
+    }
+}

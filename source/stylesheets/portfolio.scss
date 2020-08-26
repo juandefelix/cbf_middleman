@@ -33,6 +33,10 @@
     .project img {
         padding-bottom: 25px;
     };
+    .info-panel {
+        margin-right: 0px;
+        margin-left: 0px;
+    }
 }
 
 @media (min-width: 768px) {
@@ -42,4 +46,8 @@
     .project img {
         margin-top: 30px;
     }
+    .info-panel {
+        margin-right: 30px;
+        margin-left: 30px;
+    }   
 }

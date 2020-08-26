@@ -5,16 +5,24 @@
 
 .bg-vid {
     background-color: #6c757d;
-} 
+}
 
 @media (max-width: 768px) {
     .about-content img {
         padding-top: 30px;
+    }
+    .video-container {
+        margin-right: 0px;
+        margin-left: 0px;
     }
 }
 
 @media (min-width: 768px) {
     .about-img {
         padding-top: 30px;
+    }
+    .video-container {
+        margin-right: 30px;
+        margin-left: 30px;
     }
 }

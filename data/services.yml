@@ -3,7 +3,9 @@ banner_content:
   title: Services
   text: We partner with companies to design and install productive, comfortable, and attractive commercial office furniture for their employees and customers, regardless of budget or location.
   image: https://www.haworth.com/content/dam/haworth-com/global/inspiration---spaces---projects/customer-spaces/ash-brokerage/Gallery%204.jpg
-
+  icons: 
+    - icon: "icon"
+  
 services_info:
   title: We care deeply about our work
   text: Your office environment not only reflects your image, it also has a major impact on your employees

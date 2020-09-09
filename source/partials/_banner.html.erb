@@ -12,6 +12,11 @@
           <% end %>
         </h1>
         <p class="small-text-bold text-left"><%=text%></p>
+        <% if icons %>
+          <% icons.each do |icon| %>
+          <a href=""><%=icon%></a>
+          <% end %>
+        <% end %>
       </div>
     </div>
   </div>

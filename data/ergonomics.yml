@@ -5,3 +5,6 @@ banner_content:
         off health and mobility issues for years to come. Having pain, or just curious about how your
         space can serve you better? Let us help.
   image: https://www.haworth.com/content/dam/haworth-com/global/product-categories/projects/temp-spaces/hafele/7%20Hafele%20Client%20Space-Haworth.jpg
+  icons: 
+    - icon: "icon"
+  

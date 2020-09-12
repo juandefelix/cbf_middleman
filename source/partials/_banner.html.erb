@@ -12,10 +12,15 @@
           <% end %>
         </h1>
         <p class="small-text-bold text-left"><%=text%></p>
-        <% if icons %>
+        <% if icons != nil %>
+          <div class="row icons-row">
           <% icons.each do |icon| %>
-          <a href=""><%=icon%></a>
+            <div class="icons-div">
+              <a class="hero-icons" href='<%=icon.href%>'><i class='<%=icon.icon%>'></i></a>
+              <p><%=icon.title%></p>
+            </div>
           <% end %>
+          </div>
         <% end %>
       </div>
     </div>

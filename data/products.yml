@@ -4,5 +4,50 @@ banner_content:
   text: We're proud of what we offer. Below you can find examples of our top products along with a link to our full product library.
   image: https://www.haworth.com/content/dam/haworth-com/global/product-categories/projects/temp-spaces/hitt-contracting-co-lab/CoLab_Hitt_14.jpg
   icons: 
-    - icon: "icon"
+    - icon: "fas fa-chair fa-3x"
+      title: Seating
+      href: "#Seating"
+    - icon: "fas fa-door-open fa-3x"
+      title: Private Offices
+      href: "#Private Offices"
+    - icon: "fas fa-laptop fa-3x"
+      title: Workstations
+      href:  "#Workstations"
+    - icon: "fas fa-columns fa-3x"
+      title: Walls
+      href: "#Walls"
+    - icon: "fas fa-square fa-3x"
+      title: Tables
+      href: "#Tables"
   
+projects:
+  - title: Seating
+    images: 
+      - 'http://cbfplus.com/images/Portfolio/20160429_100659sm.jpg'
+      - 'http://cbfplus.com/images/Portfolio/20160429_101205_sm.jpg'
+      - 'http://cbfplus.com/images/Portfolio/20160429_102203sm.jpg'
+      - 'http://cbfplus.com/images/Portfolio/20160429_100930sm.jpg'
+  - title: Private Offices
+    images: 
+      - 'http://cbfplus.com/images/Portfolio/20160429_100659sm.jpg'
+      - 'http://cbfplus.com/images/Portfolio/20160429_101205_sm.jpg'
+      - 'http://cbfplus.com/images/Portfolio/20160429_102203sm.jpg'
+      - 'http://cbfplus.com/images/Portfolio/20160429_100930sm.jpg'
+  - title: Workstations
+    images: 
+      - 'http://cbfplus.com/images/Portfolio/20160429_100659sm.jpg'
+      - 'http://cbfplus.com/images/Portfolio/20160429_101205_sm.jpg'
+      - 'http://cbfplus.com/images/Portfolio/20160429_102203sm.jpg'
+      - 'http://cbfplus.com/images/Portfolio/20160429_100930sm.jpg'
+  - title: Walls
+    images: 
+      - 'http://cbfplus.com/images/Portfolio/20160429_100659sm.jpg'
+      - 'http://cbfplus.com/images/Portfolio/20160429_101205_sm.jpg'
+      - 'http://cbfplus.com/images/Portfolio/20160429_102203sm.jpg'
+      - 'http://cbfplus.com/images/Portfolio/20160429_100930sm.jpg'
+  - title: Tables
+    images: 
+      - 'http://cbfplus.com/images/Portfolio/20160429_100659sm.jpg'
+      - 'http://cbfplus.com/images/Portfolio/20160429_101205_sm.jpg'
+      - 'http://cbfplus.com/images/Portfolio/20160429_102203sm.jpg'
+      - 'http://cbfplus.com/images/Portfolio/20160429_100930sm.jpg'

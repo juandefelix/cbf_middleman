@@ -3,8 +3,22 @@ banner_content:
   title: Services
   text: We partner with companies to design and install productive, comfortable, and attractive commercial office furniture for their employees and customers, regardless of budget or location.
   image: https://www.haworth.com/content/dam/haworth-com/global/inspiration---spaces---projects/customer-spaces/ash-brokerage/Gallery%204.jpg
-  icons: 
-    - icon: "icon"
+  icons:  
+    - icon: "fas fa-pencil-ruler fa-3x" 
+      title: Interior Design
+      href: "#Interior Design"
+    - icon: "fas fa-people-arrows fa-3x"
+      title: Consulting
+      href: "#Consulting"
+    - icon: "fas fa-truck fa-3x"
+      title: Delivery and Installation
+      href: "#Delivery and Installation"
+    - icon: "fas fa-tasks fa-3x"
+      title: Project Management
+      href: "#Project Management"
+    - icon: "fas fa-tools fa-3x"
+      title: Warranty and Service
+      href: "#Warranty and Service"
   
 services_info:
   title: We care deeply about our work
@@ -16,7 +30,7 @@ services_info:
         projects, and our goal is to make it a smooth and worry free process for you.
 
 services_offered:
-  - title: Space Planning and Design
+  - title: Interior Design
     hover_title: Space Planning and Design
     content: More info forthcoming!
     icon: "fas fa-pencil-ruler fa-7x"
@@ -32,8 +46,8 @@ services_offered:
     hover_title: Project Management
     content: More info forthcoming!
     icon: "fas fa-tasks fa-7x"
-  - title: Warranty and Repair
-    hover_title: Warranty and Repair
+  - title: Warranty and Service
+    hover_title: Warranty and Service
     content: More info forthcoming!
     icon: "fas fa-tools fa-7x"
 

@@ -44,6 +44,20 @@
   z-index: 99;
 }
 
+.icons-row {
+  margin-top: 50px;
+  flex-wrap: nowrap;
+}
+
+.icons-div {
+  padding-right: 50px;
+  justify-content: center;
+}
+
+.hero-icons {
+  opacity: 0.85;
+}
+
 @media (max-width: 768px) {
   .hero h1 {
     font-size: 2em;

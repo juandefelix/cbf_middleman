@@ -1,5 +1,5 @@
   <%projects.each do |project|%>
-  <div class="project bg-light p-3 mb-5">
+  <div id="<%=project.title%>" class="project bg-light p-3 mb-5">
     <h1 class="mb-3 pt-3"><%=project.title%></h1>
     <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 justify-content-center mb-4">
       <%project.images.each do |image|%>

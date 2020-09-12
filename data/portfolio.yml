@@ -5,16 +5,49 @@ banner_content:
         in having worked with a wide variety of businesses. Find examples of our work below.
   image: https://www.haworth.com/content/dam/haworth-com/global/inspiration---spaces---projects/customer-spaces/ash-brokerage/Gallery%205.jpg
   icons: 
-    - icon: "icon"
+    - icon: "fas fa-landmark fa-3x"
+      title: Government
+      href: "#Government"
+    - icon: "fas fa-school fa-3x"
+      title: Education
+      href: "#Higher Education"
+    - icon: "fas fa-first-aid fa-3x"
+      title: Healthcare
+      href: "#Healthcare"
+    - icon: "fas fa-dollar-sign fa-3x"
+      title: Financial
+      href: "#Financial"
+    - icon: "fas fa-building fa-3x"
+      title: Commercial
+      href: "#Commercial"
+  
   
 projects:
-  - title: Project 1
+  - title: Government
     images: 
       - 'http://cbfplus.com/images/Portfolio/20160429_100659sm.jpg'
       - 'http://cbfplus.com/images/Portfolio/20160429_101205_sm.jpg'
       - 'http://cbfplus.com/images/Portfolio/20160429_102203sm.jpg'
       - 'http://cbfplus.com/images/Portfolio/20160429_100930sm.jpg'
-  - title: Project 2
+  - title: Higher Education
+    images: 
+      - 'http://cbfplus.com/images/Portfolio/20160429_100659sm.jpg'
+      - 'http://cbfplus.com/images/Portfolio/20160429_101205_sm.jpg'
+      - 'http://cbfplus.com/images/Portfolio/20160429_102203sm.jpg'
+      - 'http://cbfplus.com/images/Portfolio/20160429_100930sm.jpg'
+  - title: Healthcare
+    images: 
+      - 'http://cbfplus.com/images/Portfolio/20160429_100659sm.jpg'
+      - 'http://cbfplus.com/images/Portfolio/20160429_101205_sm.jpg'
+      - 'http://cbfplus.com/images/Portfolio/20160429_102203sm.jpg'
+      - 'http://cbfplus.com/images/Portfolio/20160429_100930sm.jpg'
+  - title: Financial
+    images: 
+      - 'http://cbfplus.com/images/Portfolio/20160429_100659sm.jpg'
+      - 'http://cbfplus.com/images/Portfolio/20160429_101205_sm.jpg'
+      - 'http://cbfplus.com/images/Portfolio/20160429_102203sm.jpg'
+      - 'http://cbfplus.com/images/Portfolio/20160429_100930sm.jpg'
+  - title: Commercial
     images: 
       - 'http://cbfplus.com/images/Portfolio/20160429_100659sm.jpg'
       - 'http://cbfplus.com/images/Portfolio/20160429_101205_sm.jpg'

@@ -5,23 +5,6 @@
   <a href="https://www.cbfplus.com/documents/Brochure_Ergonomics_General-nobleed.pdf" target="_blank"><h3>Click here for your free ergonomics brochure</h3></a>
 </div>
 
-<% products = 
-[{name: "One", image:'https://www.cbfplus.com/images/thumb-idea-starter02.jpg'},
-{name: "Two", image:'https://www.cbfplus.com/images/pict009-ergonomic-help-sm.jpg'},
-{name: "Three", image:'https://www.cbfplus.com/images/thumb-online-library02.jpg'},
-{name: "Four", image:'https://www.cbfplus.com/images/thumb-accent-pieces2.jpg'}]
-%>
-
-<div class="container mt-5 bg-light pt-3 pl-3 pb-3 pr-3">
-  <h3 class="mb-5">Examples of Ergonomic products</h3>
-  <% 2.times do %>
-  <div class="row row-cols-1 row-cols-xs-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 justify-content-center">
-    <% products.each do |product| %>
-    <div class="col-sm">
-      <img src="<%= product[:image] %>">
-      <h2 class="pt-4 mb-5">Product <%= product[:name] %></h2>
-    </div>
-    <% end %>
-  </div>
-  <% end %>
+<div class="container mb-5">
+  <%=partial "partials/portfolio-projects", locals: data.ergonomics%>
 </div>

@@ -1,7 +1,55 @@
 ---
 banner_content:
-  title: Ergonomics
+  title: Employee Wellness
   text: Moving, standing, and sitting well drastically improve the quality of life and can help ward 
         off health and mobility issues for years to come. Having pain, or just curious about how your
         space can serve you better? Let us help.
   image: https://www.haworth.com/content/dam/haworth-com/global/product-categories/projects/temp-spaces/hafele/7%20Hafele%20Client%20Space-Haworth.jpg
+  icons: 
+    - icon: "fas fa-walking fa-3x"
+      title: Ergonomics
+      href: "#Ergonomics"
+    - icon: "fas fa-apple-alt fa-3x"
+      title: Wellness Rooms
+      href: "#Wellness Rooms"
+    - icon: "fas fa-seedling fa-3x"
+      title: Biophilia
+      href:  "#Biophilia"
+    - icon: "fas fa-clone fa-3x"
+      title: Affordances
+      href: "#Affordances"
+    - icon: "fas fa-handshake fa-3x"
+      title: Culture
+      href: "#Culture"
+  
+projects:
+  - title: Ergonomics
+    images: 
+      - 'http://cbfplus.com/images/Portfolio/20160429_100659sm.jpg'
+      - 'http://cbfplus.com/images/Portfolio/20160429_101205_sm.jpg'
+      - 'http://cbfplus.com/images/Portfolio/20160429_102203sm.jpg'
+      - 'http://cbfplus.com/images/Portfolio/20160429_100930sm.jpg'
+  - title: Wellness Rooms
+    images: 
+      - 'http://cbfplus.com/images/Portfolio/20160429_100659sm.jpg'
+      - 'http://cbfplus.com/images/Portfolio/20160429_101205_sm.jpg'
+      - 'http://cbfplus.com/images/Portfolio/20160429_102203sm.jpg'
+      - 'http://cbfplus.com/images/Portfolio/20160429_100930sm.jpg'
+  - title: Biophilia
+    images: 
+      - 'http://cbfplus.com/images/Portfolio/20160429_100659sm.jpg'
+      - 'http://cbfplus.com/images/Portfolio/20160429_101205_sm.jpg'
+      - 'http://cbfplus.com/images/Portfolio/20160429_102203sm.jpg'
+      - 'http://cbfplus.com/images/Portfolio/20160429_100930sm.jpg'
+  - title: Affordances
+    images: 
+      - 'http://cbfplus.com/images/Portfolio/20160429_100659sm.jpg'
+      - 'http://cbfplus.com/images/Portfolio/20160429_101205_sm.jpg'
+      - 'http://cbfplus.com/images/Portfolio/20160429_102203sm.jpg'
+      - 'http://cbfplus.com/images/Portfolio/20160429_100930sm.jpg'
+  - title: Culture
+    images: 
+      - 'http://cbfplus.com/images/Portfolio/20160429_100659sm.jpg'
+      - 'http://cbfplus.com/images/Portfolio/20160429_101205_sm.jpg'
+      - 'http://cbfplus.com/images/Portfolio/20160429_102203sm.jpg'
+      - 'http://cbfplus.com/images/Portfolio/20160429_100930sm.jpg'

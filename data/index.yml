@@ -1,12 +1,16 @@
 ---
 banner_content:
-  title:
-        - Awesome Workspaces
-        - Unrivaled Service
-        - Lifelong Partnerships
-  text: We partner with companies to design and install productive, comfortable, and attractive commercial office furniture for their employees and customers, regardless of budget or location.
+  title: Listen
+  title_2: Create
+  title_3: Build
+  title_4: Maintain
+  text: Understand YOUR company and YOUR culture
+  text_2: Designing solutions unique to YOUR needs
+  text_3: Making YOUR vision come to life
+  text_4: OUR relationship goes beyond move-in day
   image: "https://www.haworth.com/content/dam/haworth-com/global/product-categories/projects/temp-spaces/clemson-university/Clemson-ClientSpace-Lounge-Very-Haworth.jpg"
-
+  icons: 
+  
 best_in_class:
   text: The Best In Class distinction is awarded to dealerships based on exceptional performance in market development, sales, customer satisfaction, operational excellence and enterprise development.
 
@@ -33,9 +37,3 @@ port_serv_cards_content:
     text: There's more than meets the eye when it comes to furniture. Click to get an idea of our process here at CBF.
     image: "https://www.haworth.com/content/dam/haworth-com/global/products/desks-workspaces/premise/hero-carousel/premise-0908-009_edit.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg"
     href: '/services'
-
-best_in_class_content:
-  - image: "https://www.cbfplus.com/images/BIC_2018_wide_Color_000.jpg"
-  - image: "https://www.cbfplus.com/images/BIC_2018_wide_Color_000.jpg"
-  - image: "https://www.cbfplus.com/images/BIC_2018_wide_Color_000.jpg"
-  

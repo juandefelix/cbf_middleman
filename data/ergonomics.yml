@@ -8,18 +8,48 @@ banner_content:
   icons: 
     - icon: "fas fa-walking fa-3x"
       title: Ergonomics
-      href: 
+      href: "#Ergonomics"
     - icon: "fas fa-apple-alt fa-3x"
       title: Wellness Rooms
-      href:
+      href: "#Wellness Rooms"
     - icon: "fas fa-seedling fa-3x"
       title: Biophilia
-      href:  
+      href:  "#Biophilia"
     - icon: "fas fa-clone fa-3x"
       title: Affordances
-      href: 
+      href: "#Affordances"
     - icon: "fas fa-handshake fa-3x"
       title: Culture
-      href: 
+      href: "#Culture"
   
-  
+projects:
+  - title: Ergonomics
+    images: 
+      - 'http://cbfplus.com/images/Portfolio/20160429_100659sm.jpg'
+      - 'http://cbfplus.com/images/Portfolio/20160429_101205_sm.jpg'
+      - 'http://cbfplus.com/images/Portfolio/20160429_102203sm.jpg'
+      - 'http://cbfplus.com/images/Portfolio/20160429_100930sm.jpg'
+  - title: Wellness Rooms
+    images: 
+      - 'http://cbfplus.com/images/Portfolio/20160429_100659sm.jpg'
+      - 'http://cbfplus.com/images/Portfolio/20160429_101205_sm.jpg'
+      - 'http://cbfplus.com/images/Portfolio/20160429_102203sm.jpg'
+      - 'http://cbfplus.com/images/Portfolio/20160429_100930sm.jpg'
+  - title: Biophilia
+    images: 
+      - 'http://cbfplus.com/images/Portfolio/20160429_100659sm.jpg'
+      - 'http://cbfplus.com/images/Portfolio/20160429_101205_sm.jpg'
+      - 'http://cbfplus.com/images/Portfolio/20160429_102203sm.jpg'
+      - 'http://cbfplus.com/images/Portfolio/20160429_100930sm.jpg'
+  - title: Affordances
+    images: 
+      - 'http://cbfplus.com/images/Portfolio/20160429_100659sm.jpg'
+      - 'http://cbfplus.com/images/Portfolio/20160429_101205_sm.jpg'
+      - 'http://cbfplus.com/images/Portfolio/20160429_102203sm.jpg'
+      - 'http://cbfplus.com/images/Portfolio/20160429_100930sm.jpg'
+  - title: Culture
+    images: 
+      - 'http://cbfplus.com/images/Portfolio/20160429_100659sm.jpg'
+      - 'http://cbfplus.com/images/Portfolio/20160429_101205_sm.jpg'
+      - 'http://cbfplus.com/images/Portfolio/20160429_102203sm.jpg'
+      - 'http://cbfplus.com/images/Portfolio/20160429_100930sm.jpg'

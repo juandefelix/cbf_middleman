@@ -2,23 +2,27 @@
   <div class="background-image-container mb-5 img-fluid"
       style="width: 100%; background-image: linear-gradient(to left, transparent, rgba(0, 0, 0, 0), rgba(21, 22, 31, 0.55)), url(<%=image%>);">
   <div class="container mt-0">
-    <div class="row justify-content-between align-items-center ml-2">
+    <div class="row justify-content-between align-items-center">
       <div class="hero-content col-md-5 main-text">
-        <h1 class="text-left"><%=title%></h1>
-        <p class="small-text-bold text-left"><%=text%></p>
         <% if defined? title_2 != nil %>
+          <h1 class="text-left"><%=title%></h1>
+          <p class="small-text-bold text-left"><%=text_a%> <strong>YOUR</strong> <%=text_b%> <strong>YOUR</strong> <%=text_c%></p>
           <h1 class="text-left"><%=title_2%></h1>
-          <p class="small-text-bold text-left"><%=text_2%></p>
-        <% end %>
-        <% if defined? title_3 != nil %>
+          <p class="small-text-bold text-left"><%=text_2%> <strong>YOUR</strong> <%=text_2a%></p>
           <h1 class="text-left"><%=title_3%></h1>
-          <p class="small-text-bold text-left"><%=text_3%></p>
-        <% end %>
-        <% if defined? title_4 != nil %>
+          <p class="small-text-bold text-left"><%=text_3%> <strong>YOUR</strong> <%=text_3a%></p>
           <h1 class="text-left"><%=title_4%></h1>
-          <p class="small-text-bold text-left"><%=text_4%></p>
+          <p class="small-text-bold text-left"><strong>OUR</strong> <%=text_4%></p>
+          <% else %>
+            <h1 class="text-left"><%=title%></h1>
+            <p class="small-text-bold text-left"><%=text%></p>
         <% end %>
       </div>
+      <% if logo != nil %>
+        <div class="logo col-md-5">
+          <img src='<%=logo%>' width="449" height="500">
+        </div>
+      <% end %>
       <% if icons != nil %>
         <div class="icons-panel col-md-2">
           <% icons.each do |icon| %>

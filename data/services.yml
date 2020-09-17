@@ -19,6 +19,7 @@ banner_content:
     - icon: "fas fa-tools fa-3x"
       title: Warranty and Service
       href: "#Warranty and Service"
+  logo:
   
 services_info:
   title: We care deeply about our work

@@ -19,7 +19,8 @@ banner_content:
     - icon: "fas fa-square fa-3x"
       title: Tables
       href: "#Tables"
-  
+  logo:
+
 projects:
   - title: Seating
     images: 

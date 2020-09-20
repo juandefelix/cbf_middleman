@@ -6,13 +6,13 @@
       <div class="hero-content col-md-5 main-text">
         <% if defined? title_2 != nil %>
           <h1 class="text-left"><%=title%></h1>
-          <p class="small-text-bold text-left"><%=text_a%> <strong>YOUR</strong> <%=text_b%> <strong>YOUR</strong> <%=text_c%></p>
+          <p class="small-text-bold text-left"><%=highlight(text_a, "YOUR")%></p>
           <h1 class="text-left"><%=title_2%></h1>
-          <p class="small-text-bold text-left"><%=text_2%> <strong>YOUR</strong> <%=text_2a%></p>
+          <p class="small-text-bold text-left"><%=highlight(text_2, "YOUR")%></p>
           <h1 class="text-left"><%=title_3%></h1>
-          <p class="small-text-bold text-left"><%=text_3%> <strong>YOUR</strong> <%=text_3a%></p>
+          <p class="small-text-bold text-left"><%=highlight(text_3, "YOUR")%></p>
           <h1 class="text-left"><%=title_4%></h1>
-          <p class="small-text-bold text-left"><strong>OUR</strong> <%=text_4%></p>
+          <p class="small-text-bold text-left"><%=highlight(text_4, "OUR")%></p>
           <% else %>
             <h1 class="text-left"><%=title%></h1>
             <p class="small-text-bold text-left"><%=text%></p>

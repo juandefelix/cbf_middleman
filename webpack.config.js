@@ -1,0 +1,29 @@
+const path = require('path');
+
+module.exports = {
+  entry: {
+    main: './source/javascripts/site.js'
+  },
+  output: {
+    path: path.resolve(__dirname, 'dist'),
+    filename: 'bundle.js'
+  },
+  module: {
+    rules: [
+      {
+        // test: /\.m?js$/,
+        test: /\.js$/,
+        exclude: /(node_modules)/,
+        loader: 'babel-loader'
+      },
+      {
+        test: /\.scss$/,
+        use: ['style-loader', 'css-loader', 'sass-loader']
+      },
+      {
+        test: /\.css$/,
+        use: ['style-loader', 'css-loader']
+      }
+    ]
+  }
+};

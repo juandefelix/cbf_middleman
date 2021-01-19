@@ -16,6 +16,16 @@ page '/*.txt', layout: false
 # With alternative layout
 # page '/path/to/file.html', layout: 'other_layout'
 
+# Load Sass from node_modules
+config[:sass_assets_paths] << File.join(root, 'node_modules')
+
+activate :external_pipeline,
+         name: :webpack,
+         command: build? ? 'npm run build' : 'npm run start',
+         source: 'dist',
+         latency: 1
+
+
 # Proxy pages
 # https://middlemanapp.com/advanced/dynamic-pages/
 

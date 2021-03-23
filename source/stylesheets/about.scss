@@ -7,6 +7,28 @@
     background-color: #6c757d;
 }
 
+.about-header {
+    color: #EF3125;
+  }
+
+.about-card {
+    background-color: #EF3125;
+}
+
+.about-card a, .about-card p {
+    color: white;
+}
+
+.header-text {
+    color: black;
+}
+
+.header-div {
+    
+    opacity: 0.8;
+    padding: 15px;
+}
+
 @media (max-width: 768px) {
     .about-content img {
         padding-top: 30px;

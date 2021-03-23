@@ -1,16 +1,42 @@
 <%=partial "partials/banner-about", locals: data.about.banner_content%>
 
+<div class="container pt-1">
+  <div class="row row-cols-1 row-cols-md-3 mt-5 mb-5">
+    <div class="col">
+      <div class="card about-card h-100">
+        <div class="card-body">
+          <h5 class="card-title"><a class="card-link" href="#">Our Vision</a></h5>
+          <p class="card-text">Additional text here?</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card about-card h-100">
+        <div class="card-body">
+          <h5 class="card-title"><a class="card-link" href="#">Our Values</a></h5>
+          <p class="card-text">Additional text here?</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card about-card h-100">
+        <div class="card-body">
+          <h5 class="card-title"><a class="card-link" href="#">Our Process</a></h5>
+          <p class="card-text">Additional text here?</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
 <div class="container about-content mb-5">
   <div class="row justify-content-center">
-    <div class="mb-4 border-bottom">
+    <div class="pt-3 mb-4 border-bottom">
       <h1><%=data.about.info_content.title%></h1>
     </div>
   </div>
-  <p class="mb-5"><%=data.about.info_content.text%></p>
-  <div class="row row-cols-1 row-cols-sm-2 row-cols-lg-3 justify-content-center">
-    <%data.about.info_images.each do |image|%>
-      <%=partial "partials/about-info-images", locals: image%>
-      <%end%>
+  <div class="pt-1 pb-3">
+    <p class="mb-5"><%=data.about.info_content.text%></p>
   </div>
 </div>
 

@@ -1,10 +1,11 @@
 $theme-colors: (
-  "danger": #EF3125
+  "danger": #EF3727
 );
 
 @import "bootstrap/scss/bootstrap";
 @import "markets.scss";
 @import "home.scss";
+@import "header.scss";
 @import "footer.scss";
 @import "about.scss";
 @import "portfolio.scss";
@@ -43,11 +44,11 @@ body {
 }
 
 #header-socials, #footer-links, #footer-socials {
-  color: #00C1D5;
+  color: #43BFD0;
 }
 
 i.fas, i.fab {
-  color: #00C1D5;
+  color: #43BFD0;
 }
 
 a {

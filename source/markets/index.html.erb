@@ -1,7 +1,7 @@
 <%=partial "partials/banner", locals: data.markets.banner_content%>
-
+<%#
 <%=partial "partials/industries"%>
-
+<%#
 <%card_content = [
       {title: "LOCAL & STATE GOVERNMENT", 
       text: "Text about this particular market will go here!",
@@ -29,11 +29,11 @@
       href: '/finance',
       id: 'finance'}
     ]%>
-
+<%#
 <div class="container">
   <div class="row row-cols-1 row-cols-sm-1 market-panel mt-5 mb-5">
     <%card_content.each do |card| %>
-      <%=partial "partials/markets", locals: card%>
-      <%end%>
+<%#      <%=partial "partials/markets", locals: card%>
+<%#      <%end%>
   </div>
 </div>

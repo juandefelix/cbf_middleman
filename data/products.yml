@@ -14,8 +14,8 @@ banner_content:
       title: Workstations
       href:  "#Workstations"
     - icon: "fas fa-columns fa-3x"
-      title: Walls
-      href: "#Walls"
+      title: Modular Walls
+      href: "#Modular Walls"
     - icon: "fas fa-square fa-3x"
       title: Tables
       href: "#Tables"
@@ -40,7 +40,7 @@ projects:
       - 'http://cbfplus.com/images/Portfolio/20160429_101205_sm.jpg'
       - 'http://cbfplus.com/images/Portfolio/20160429_102203sm.jpg'
       - 'http://cbfplus.com/images/Portfolio/20160429_100930sm.jpg'
-  - title: Walls
+  - title: Modular Walls
     images: 
       - 'http://cbfplus.com/images/Portfolio/20160429_100659sm.jpg'
       - 'http://cbfplus.com/images/Portfolio/20160429_101205_sm.jpg'

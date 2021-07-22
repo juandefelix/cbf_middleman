@@ -12,6 +12,15 @@
   color: #fff;
 }
 
+.about-background-image-container {
+  position: relative;
+  min-height: 510px;
+  background: center no-repeat;
+  background-size: contain;
+  padding: 25px 0;
+  color: #fff;
+}
+
 .hero-content p {
   text-indent: 1.5em;
 }
@@ -26,6 +35,7 @@
   margin-inline-start: 0px;
   margin-inline-end: 0px;
   white-space: nowrap;
+  color: #ED3727;
 }
 
 .hero h1 {

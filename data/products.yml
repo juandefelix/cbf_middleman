@@ -1,7 +1,12 @@
 ---
 banner_content:
   title: Products
-  text: We're proud of what we offer. Below you can find examples of our top products along with a link to our full product library.
+  text: Today’s commerce has a vast array of products available to meet every application. It
+        can be intimidating and confusing trying to determine just what to purchase. With our
+        history of over 25 years working with the majority of our manufacturers we know what
+        works and what doesn’t. As we say, furniture is “simply complex”. You can rely on the
+        long term quality, flexibility and value of our products to provide 10-15 years or more of
+        product life.
   image: https://www.haworth.com/content/dam/haworth-com/global/product-categories/projects/temp-spaces/hitt-contracting-co-lab/CoLab_Hitt_14.jpg
   icons: 
     - icon: "fas fa-chair fa-3x"

@@ -1,8 +1,13 @@
-// This is where it all goes :)
-$(function () {
-    $('[data-toggle="popover"]').popover()
-  })
 
-  $('.popover-dismiss').popover({
-    trigger: 'focus'
-  })
+/*
+var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
+var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
+  return new bootstrap.Popover(popoverTriggerEl)
+})
+*/
+
+
+var popover = new bootstrap.Popover(document.querySelector('[data-bs-toggle="popover"]'), {
+  container: 'body'
+})
+

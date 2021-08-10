@@ -1,33 +1,6 @@
 <%=partial "partials/banner-about", locals: data.about.banner_content%>
 
-<div class="container pt-1">
-  <div class="row row-cols-1 row-cols-md-3 mt-5 mb-5">
-    <div class="col">
-      <div class="card about-card h-100">
-        <div class="card-body">
-          <h5 class="card-title"><a class="card-link" href="#">Vision Statement</a></h5>
-          <p class="card-text">"To be recognized as the leading office dealer in our community, providing superior quality, value, and customer service."</p>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card about-card h-100">
-        <div class="card-body">
-          <h5 class="card-title"><a class="card-link" href="#">Our Values</a></h5>
-          <p class="card-text">Additional text here?</p>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card about-card h-100">
-        <div class="card-body">
-          <h5 class="card-title"><a class="card-link" href="#">Our Process</a></h5>
-          <p class="card-text">Additional text here?</p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+<%=partial "partials/about-info", locals: data.about.info_content%>
 
 <div class="container pt-5">
   <div class="row video-container mt-5 mb-5 bg-vid">

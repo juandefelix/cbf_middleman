@@ -9,9 +9,15 @@ banner_content:
   niche: Creating positive, lasting customer experiences.
   
 info_content:
-  title: Vision Statement
-  text: "To be recognized as the leading office dealer in our community, providing superior quality, value, and customer service."
-
+  title_1: Vision Statement
+  text_1: "To be recognized as the leading office dealer in our community, providing superior quality, value, and customer service."
+  title_2: Our Values
+  text_a: Customer confidence is measured by trust and reliability. At Christianson’s we understand what it means to be a dependable resource.
+  text_b: Routine is rare, and we understand that doing what it takes to get it done often includes extra effort to produce results.
+  text_c: Since our inception we’ve embraced the phrase “If we don’t take care of the customer, somebody else will.”
+  text_d: Projects and relationships often involve multiple talents and we know how to tap individual strengths to achieve successful results.
+  title_3: Our Process
+  text_3: 
 info_images:
   - image: "https://www.haworth.com/content/dam/haworth-com/global/inspiration---spaces---projects/customer-spaces/ash-brokerage/Banner-D.jpg"
   - image: "https://www.haworth.com/content/dam/haworth-com/global/inspiration---spaces---projects/customer-spaces/coretrust/Gallery%202.jpg"

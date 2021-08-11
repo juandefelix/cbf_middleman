@@ -20,8 +20,11 @@ banner_content:
       title: Financial
       href: "#Financial"
     - icon: "fas fa-building fa-3x"
-      title: Commercial
-      href: "#Commercial"
+      title: Contract
+      href: "#Contract"
+    - icon: "fas fa-house-user fa-3x"
+      title: Senior Housing
+      href: "#Senior Housing"
   logo:
   
   
@@ -50,7 +53,13 @@ projects:
       - 'http://cbfplus.com/images/Portfolio/20160429_101205_sm.jpg'
       - 'http://cbfplus.com/images/Portfolio/20160429_102203sm.jpg'
       - 'http://cbfplus.com/images/Portfolio/20160429_100930sm.jpg'
-  - title: Commercial
+  - title: Contract
+    images: 
+      - 'http://cbfplus.com/images/Portfolio/20160429_100659sm.jpg'
+      - 'http://cbfplus.com/images/Portfolio/20160429_101205_sm.jpg'
+      - 'http://cbfplus.com/images/Portfolio/20160429_102203sm.jpg'
+      - 'http://cbfplus.com/images/Portfolio/20160429_100930sm.jpg'
+  - title: Senior Housing
     images: 
       - 'http://cbfplus.com/images/Portfolio/20160429_100659sm.jpg'
       - 'http://cbfplus.com/images/Portfolio/20160429_101205_sm.jpg'

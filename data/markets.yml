@@ -9,21 +9,21 @@ banner_content:
   icons: 
     - icon: "fas fa-landmark fa-3x"
       title: Government
-      href: "#government"
+      href: "/government"
     - icon: "fas fa-school fa-3x"
       title: Education
-      href: "#education"
+      href: "/education"
     - icon: "fas fa-first-aid fa-3x"
       title: Healthcare
-      href: "#healthcare"
+      href: "/healthcare"
     - icon: "fas fa-dollar-sign fa-3x"
       title: Finance
-      href: "#finance"
+      href: "/finance"
     - icon: "fas fa-building fa-3x"
       title: Contract
-      href: "#contract"
+      href: "/contract"
     - icon: "fas fa-house-user fa-3x"
       title: Senior Housing
-      href: "#"
+      href: "/senior_housing"
   logo:
   

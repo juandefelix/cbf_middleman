@@ -2,7 +2,7 @@
 banner_content:
   title: Our Team
   text: Our team rocks!
-  image: https://www.haworth.com/content/dam/haworth-com/global/inspiration---spaces---projects/customer-spaces/zev-yaroslavsky-family-support-center/Gallery%203.jpg
+  image: '../images/Downtown_Fargo.jpg'
   logo: 
   icons: 
 
@@ -15,17 +15,103 @@ content:
 members: 
   - full_name: Roger Christianson
     first_name: Roger
-    image: 'https://www.cbfplus.com/images/team-roger.jpg'
-    about: Roger is the founder and president of CBF.
+    image: '../images/team/Roger_Christianson.jpg'
+    info: "CEO"
+    phone: "701-551-2990"
+    email: "roger@cbfplus.com"
   - full_name: Rick Buchholz
     first_name: Rick
-    image: 'https://www.cbfplus.com/images/team-rick.jpg'
-    about: Rick is the vice president of CBF.
+    image: '../images/team/Rick_Buchholz.jpg'
+    info: Account Executive
+    phone: 701-551-2985
+    email: rick@cbfplus.com
   - full_name: Kim Christianson
     first_name: Kim
-    image: 'https://www.cbfplus.com/images/team-kim.jpg'
-    about: Kim is the marketing director at CBF.
+    image: '../images/team/Kimberly_Christianson.jpg'
+    info: Marketing Director
+    phone: 701-551-2991
+    email: kim@cbfplus.com
   - full_name: Rich Fenno
     first_name: Rich
-    image: 'https://www.cbfplus.com/images/team-rich.jpg'
-    about: Rich is a salesman at CBF.
+    image: '../images/team/Rich_Fenno.jpg'
+    info: Account Executive
+    phone: 701-551-2987
+    email: rich@cbfplus.com
+  - full_name: Aletha Lippay
+    first_name: Aletha
+    image: '../images/team/Aletha_Lippay.jpg'
+    info: Interior Designer
+    phone: 701-551-2995
+    email: aletha@cbfplus.com
+  - full_name: Alison Carlson
+    first_name: Alison
+    image: '../images/team/Alison_Carlson.jpg'
+    info: Interior Designer
+    phone: 701-551-2981
+    email: alison@cbfplus.com
+  - full_name: Stacy Holm
+    first_name: Stacy
+    image: '../images/team/Stacy_Holm.jpg'
+    info: Interior Designer
+    phone: 701-551-2983
+    email: stacy@cbfplus.com
+  - full_name: Erika Genoche
+    first_name: Erika
+    image: '../images/team/Erika_Genoche.jpg'
+    info: Interior Designer
+    phone: 701-551-2986
+    email: erika@cbfplus.com
+  - full_name: Kris Root
+    first_name: Kris
+    image: '../images/team/Kris_Root.jpg'
+    info: MN Account Executive
+    phone: 612-741-7125
+    email: kris@cbfplus.com
+  - full_name: Cole Oosterhuis
+    first_name: Cole
+    image: '../images/team/Cole_Oosterhuis.jpg'
+    info: MN Account Executive
+    phone: 651-308-8036
+    email: cole@cbfplus.com
+  - full_name: Mary Beth Skunberg
+    first_name: Mary Beth
+    image: '../images/team/Mary_Beth_Skunberg.jpg'
+    info: Accounting
+    phone: 701-551-2992 
+    email: marybeth@cbfplus.com
+  - full_name: Kimberly Blythe
+    first_name: Kimberly
+    image: '../images/team/Kimberly_Blythe.jpg'
+    info: Operations Manager
+    phone: 701-551-2982
+    email: kimberly@cbfplus.com
+  - full_name: Bill Narum
+    first_name: Bill
+    image: '../images/team/Bill_Narum.jpg'
+    info: Installation Manager
+    phone: 701-551-2993
+    email: bill@cbfplus.com
+  - full_name: Jason Ralph
+    first_name: Jason
+    image: '../images/team/Jason_Ralph.jpg'
+    info: Furniture Technician
+    phone:
+    email:
+  - full_name: Todd Solberg
+    first_name: Todd
+    image: '../images/team/Todd_Solberg.jpg'
+    info: Furniture Technician
+    phone:
+    email:
+  - full_name: Derek Kelleher
+    first_name: Derek
+    image: '../images/team/Derek_Kelleher.jpg'
+    info: Furniture Technician
+    phone:
+    email:
+  - full_name: Todd Dickerson
+    first_name: Todd
+    image: '../images/team/Todd_Dickerson.jpg'
+    info: Furniture Technician
+    phone:
+    email:

@@ -39,22 +39,29 @@ services_info:
 services_offered:
   - title: Interior Design
     hover_title: Space Planning and Design
-    content: More info forthcoming!
+    content: Our professional interior designers work with architects, design firms, facility managers and builders 
+            taking it from conception to reality. Being able to see the finished result before it is ordered through our
+            rendering software eliminates surprises.
     icon: "fas fa-pencil-ruler fa-7x"
   - title: Consulting
     hover_title: Consulting
-    content: More info forthcoming!
+    content: Our sales staff has over 100 years combined experience with all aspects of business and ergonomic needs. 
+            Whether it be ergonomic assessments, budgeting, product application, HVAC, electrical/data impacts and the 
+            like, we know the answers.
     icon: "fas fa-people-arrows fa-7x"
   - title: Delivery and Installation
     hover_title: Delivery and Installation
-    content: More info forthcoming!
+    content: While we subcontract certain projects our staff of installers have a combined 75+ years experience to handle 
+            any size installation and delivery.
     icon: "fas fa-truck fa-7x"
   - title: Project Management
     hover_title: Project Management
-    content: More info forthcoming!
+    content: Having project management and certified installation professionals with over 75 years combined experience 
+            give us the ability and knowledge to work with contractors during construction to the final move in date.
     icon: "fas fa-tasks fa-7x"
   - title: Warranty and Service
     hover_title: Warranty and Service
-    content: More info forthcoming!
+    content: most of our products have a 10+ year warranty and lifespan of 15+ years with parts and service. Our trained 
+            technicians have the parts and skillset to keep your investment performing.
     icon: "fas fa-tools fa-7x"
 

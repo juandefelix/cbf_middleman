@@ -61,7 +61,7 @@ services_offered:
     icon: "fas fa-tasks fa-7x"
   - title: Warranty and Service
     hover_title: Warranty and Service
-    content: most of our products have a 10+ year warranty and lifespan of 15+ years with parts and service. Our trained 
+    content: Most of our products have a 10+ year warranty and lifespan of 15+ years with parts and service. Our trained 
             technicians have the parts and skillset to keep your investment performing.
     icon: "fas fa-tools fa-7x"
 

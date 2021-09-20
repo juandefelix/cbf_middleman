@@ -1,7 +1,9 @@
 ---
 banner_content:
   title: Our Team
-  text: Our team rocks!
+  text: We are very fortunate to have a team of individuals so committed to meeting or exceeding expectations. We have several 
+        staff employed for over 20 years with our company as well as multiple employees with over 30 years of industry experience. 
+        We know what it takes to build a lasting relationship with your company. 
   image: '../images/Downtown_Fargo.jpg'
   logo: 
   icons: 
@@ -16,19 +18,19 @@ members:
   - full_name: Roger Christianson
     first_name: Roger
     image: '../images/team/Roger_Christianson.jpg'
-    info: "CEO"
+    info: "President/Owner"
     phone: "701-551-2990"
     email: "roger@cbfplus.com"
   - full_name: Rick Buchholz
     first_name: Rick
     image: '../images/team/Rick_Buchholz.jpg'
-    info: Account Executive
+    info: Account Executive/Owner
     phone: 701-551-2985
     email: rick@cbfplus.com
-  - full_name: Kim Christianson
-    first_name: Kim
+  - full_name: Kimberly Christianson
+    first_name: Kimberly
     image: '../images/team/Kimberly_Christianson.jpg'
-    info: Marketing Director
+    info: Leadership/Owner
     phone: 701-551-2991
     email: kim@cbfplus.com
   - full_name: Rich Fenno
@@ -37,6 +39,12 @@ members:
     info: Account Executive
     phone: 701-551-2987
     email: rich@cbfplus.com
+  - full_name: Stacy Holm
+    first_name: Stacy
+    image: '../images/team/Stacy_Holm.jpg'
+    info: Senior Designer
+    phone: 701-551-2983
+    email: stacy@cbfplus.com
   - full_name: Aletha Lippay
     first_name: Aletha
     image: '../images/team/Aletha_Lippay.jpg'
@@ -49,12 +57,6 @@ members:
     info: Interior Designer
     phone: 701-551-2981
     email: alison@cbfplus.com
-  - full_name: Stacy Holm
-    first_name: Stacy
-    image: '../images/team/Stacy_Holm.jpg'
-    info: Interior Designer
-    phone: 701-551-2983
-    email: stacy@cbfplus.com
   - full_name: Erika Genoche
     first_name: Erika
     image: '../images/team/Erika_Genoche.jpg'

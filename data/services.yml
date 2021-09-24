@@ -12,18 +12,30 @@ banner_content:
   icons:  
     - icon: "fas fa-pencil-ruler fa-3x" 
       title: Interior Design
+      content: Our professional interior designers work with architects, design firms, facility managers and builders 
+            taking it from conception to reality. Being able to see the finished result before it is ordered through our
+            rendering software eliminates surprises.
       href: "#Interior Design"
     - icon: "fas fa-people-arrows fa-3x"
       title: Consulting
+      content: Our sales staff has over 100 years combined experience with all aspects of business and ergonomic needs. 
+            Whether it be ergonomic assessments, budgeting, product application, HVAC, electrical/data impacts and the 
+            like, we know the answers.
       href: "#Consulting"
     - icon: "fas fa-truck fa-3x"
       title: Delivery and Installation
+      content: While we subcontract certain projects our staff of installers have a combined 75+ years experience to handle 
+            any size installation and delivery.
       href: "#Delivery and Installation"
     - icon: "fas fa-tasks fa-3x"
       title: Project Management
+      content: Having project management and certified installation professionals with over 75 years combined experience 
+            give us the ability and knowledge to work with contractors during construction to the final move in date.
       href: "#Project Management"
     - icon: "fas fa-tools fa-3x"
       title: Warranty and Service
+      content: Most of our products have a 10+ year warranty and lifespan of 15+ years with parts and service. Our trained 
+            technicians have the parts and skillset to keep your investment performing.
       href: "#Warranty and Service"
   logo:
   

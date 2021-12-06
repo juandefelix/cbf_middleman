@@ -1,0 +1,25 @@
+<div class="hero">
+  <div class="background-image-container mb-5 img-fluid"
+      style="width: 100%; background-image: linear-gradient(to left, transparent, rgba(0, 0, 0, 0), 60%, rgba(21, 22, 31, 0.55)), url(<%=image%>);">
+  <div class="container mt-0">
+    <div class="row justify-content-between align-items-center">
+      <div class="hero-content col-md-5 main-text">
+        <h1 class="text-left hero-title"><%=title%></h1>
+        <p class="small-text-bold text-left"><%=text%></p>
+      </div>
+      <% if icons != nil %>
+        <div class="icons-panel col-md-2">
+          <% icons.each do |icon| %>
+            <a href=<%=icon.href%> target="_blank">
+              <div class="icons-div hero-icons">
+                <i class='<%=icon.icon%>'></i>
+                <p><%=icon.title%></p>
+              </div>
+            </a>
+          <% end %>
+        </div>
+      <% end %> 
+    </div>
+  </div>
+  </div>
+</div>

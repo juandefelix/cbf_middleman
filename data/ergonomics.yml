@@ -8,19 +8,19 @@ banner_content:
   icons: 
     - icon: "fas fa-walking fa-3x"
       title: Ergonomics
-      href: "../source/images/Active_Ergonomics.pdf"
+      href: "../images/Active_Ergonomics.pdf"
     - icon: "fas fa-apple-alt fa-3x"
       title: Wellness Rooms
-      href: "#Wellness Rooms"
+      href: "../images/Employee_Well_Being.pdf"
     - icon: "fas fa-seedling fa-3x"
       title: Biophilia
-      href:  "#Biophilia"
+      href:  "../images/Biophila_research.pdf"
     - icon: "fas fa-clone fa-3x"
       title: Affordances
       href: "#Affordances"
     - icon: "fas fa-handshake fa-3x"
       title: Culture
-      href: "#Culture"
+      href: "../images/Culture.pdf"
   logo:
   
 projects:

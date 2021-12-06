@@ -12,39 +12,39 @@ banner_content:
       content: The OMNIA National Sales Agreement we participate with allows local, city, and state government entities 
         volume bid prices regardless of the size of the project. We have utilized this program with tremendous success 
         for counties, city offices, and state purchasing agreements for the past 2 decades.
-      href: "/government"
+      href: "#"
     - icon: "fas fa-school fa-3x"
       title: Education
       content: Colleges and Universities have always been our largest customer base. The academic and faculty applications 
         benefit from our participation with the OMNIA National Sales Agreement providing competitive products and pricing for 
         classrooms, labs, and student study spaces. Utilizing our experience and expertise, the faculty and administration 
         offices are functional and efficient with our Haworth furniture and seating programs.
-      href: "/education"
+      href: "#"
     - icon: "fas fa-first-aid fa-3x"
       title: Healthcare
       content: Haworth and other manufacturers are participants of the Vizient GPO which falls under the healthcare purchasing 
         preferred by several health-related facilities. From dental, special surgery, physical therapy and rehab clinics to 
         hospital settings we have years of experience providing furniture to meet the important guidelines on cleaning and 
         patient safety within these areas.
-      href: "/healthcare"
+      href: "#"
     - icon: "fas fa-dollar-sign fa-3x"
       title: Finance
       content: We have furnished many of the banks, credit unions, and Ag related financial institutions in our region. The 
         client experience is ever changing in this market and our design experience with interior finishes and creativity plays 
         an important role in the successful look and function you are trying to achieve.
-      href: "/finance"
+      href: "#"
     - icon: "fas fa-building fa-3x"
       title: Contract
       content: The Haworth SMB(Small to Medium size Business) program provides a huge competitive advantage for the locally 
         owned and small businesses that keep our local, regional, and country economy going. Being a small locally owned 
         business ourselves, we understand how important every dollar is to your success. Working closely listening to your needs 
         while being there for you for almost 30 years leads to mutual success.
-      href: "/contract"
+      href: "#"
     - icon: "fas fa-house-user fa-3x"
       title: Senior Housing
       content: With the fast growth in Senior Housing facilities, we’ve partnered with those manufacturers that specialize in
        this market. A residential look and feel built to specific sizes and safety with contract grade construction is so
        important to make sure our parents, grandparents and aging loved ones have an enjoyable place to live.
-      href: "/senior_housing"
+      href: "#"
   logo:
   

@@ -5,7 +5,7 @@ banner_content:
         company we wouldn’t succeed without staying focused. We specialize in six vertical markets where we can provide 
         expert advice with today’s trends and expectations. We take pride in sharing the examples of our completed 
         work within each segment. 
-  image: https://www.haworth.com/content/dam/haworth-com/global/inspiration---spaces---projects/customer-spaces/ash-brokerage/Gallery%205.jpg
+  image: '../images/portfolio.jpeg'
   icons: 
     - icon: "fas fa-landmark fa-3x"
       title: Government

@@ -12,7 +12,7 @@ banner_content:
   text_3: Making 
   text_3a: vision come to life
   text_4: relationship goes beyond move-in day
-  image: "https://www.haworth.com/content/dam/haworth-com/global/product-categories/projects/temp-spaces/clemson-university/Clemson-ClientSpace-Lounge-Very-Haworth.jpg"
+  image: '../images/Index-Clemson.jpeg'
   icons:
   logo: "../images/Christiansons_transparent.png"
   

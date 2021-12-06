@@ -8,7 +8,7 @@ banner_content:
   icons: 
     - icon: "fas fa-walking fa-3x"
       title: Ergonomics
-      href: "#Ergonomics"
+      href: "../source/images/Active_Ergonomics.pdf"
     - icon: "fas fa-apple-alt fa-3x"
       title: Wellness Rooms
       href: "#Wellness Rooms"

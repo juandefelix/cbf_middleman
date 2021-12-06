@@ -22,14 +22,10 @@ best_in_class:
 info_card_content:
   - title: Bring Haworth Home
     text: You can order the furniture you want!
-    image: "http://cbfplus.com/images/banner-250px.jpg"
+    image_link: "http://cbfplus.com/images/banner-250px.jpg"
     href: "https://store.haworth.com/pages/dealer-referral?dcode=A9705"
-  - title: ""
-    text: ""
-    logo: "../images/Christiansons_transparent.png"
-    href: ""
   - title: Work From Anywhere
-    text: What will work look like post-pandemic? There are many new unknowns, and we can help you navigate the changes necessary.
+    text: What will work look like post-pandemic? We'll help you navigate the unknowns.
     image: "https://www.haworth.com/content/dam/digital/north-american-assets/knowledge-and-research/customer-stories/smart---biggar/SmartandBiggar-13.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg"
     href: ""
 

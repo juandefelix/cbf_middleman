@@ -17,6 +17,10 @@ $theme-colors: (
 @import "banner.scss";
 @import "custom.scss";
 
+html {
+  overflow-x: hidden;
+}
+
 body {
   background-color: white;
   color: #333;

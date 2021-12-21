@@ -10,11 +10,7 @@
     background: cover;
     overflow: hidden;
 }
-
-.card-main {
-    text-align: left;
-}
-
+  
 p {
     display: block;
     margin-block-start: 1em;
@@ -45,10 +41,21 @@ p {
     }
 }
 
+@media (min-width: 768px) {
+    .home-info img {
+        width: 85%;
+        height: 300px;
+      }
+}
+
 @media (max-width: 768px) {
     .home-image-container {
         padding-top: 1.5em;
     }
+    .home-info img {
+        width: 85%;
+        height: 200px;
+      }
 }
 
 @media (max-width: 992px) {

@@ -2,6 +2,10 @@
   position: relative;
 }
 
+.display-div {
+  overflow: auto;
+}
+
 .background-image-container {
   position: relative;
   width: 100%;
@@ -74,9 +78,19 @@
   color: black;
 }
 
+@media (max-width: 576px) {
+  .logo img {
+    display: none;
+  }
+}
+
 @media (max-width: 768px) {
   .hero h1 {
     font-size: 2em;
+  }
+  .logo img {
+    width: 269px;
+    height: 300px;
   }
 }
 

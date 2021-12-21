@@ -1,13 +1,13 @@
 <div class="col mt-5">
     <div class="bg-bottom-light rounded-0 border-0">
       <% if defined? image_link != nil %>
-        <a href=<%=href%> target="_blank"><img src=<%=image_link%> style="height: 300px" alt="..."></a>
+        <a href=<%=href%> target="_blank"><img src=<%=image_link%> alt="..."></a>
         <div class="">
           <h5 class="pt-4"><%=title%></h5>
           <p class=""><%=text%></p>
         </div>
       <% elsif defined? image != nil %>
-        <img src="<%=image%>" style="height: 300px" alt="...">
+        <img src="<%=image%>" alt="...">
         <div class="">
           <h5 class="pt-4"><%=title%></h5>
           <p class=""><%=text%></p>

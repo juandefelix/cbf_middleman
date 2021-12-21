@@ -20,7 +20,11 @@ $theme-colors: (
 html {
   overflow-x: hidden;
 }
-
+/*
+.container, .container-fluid {
+  overflow: auto;
+}
+*/
 body {
   background-color: white;
   color: #333;
@@ -71,7 +75,6 @@ a {
 .section-1 {
   width: 100%;
 }
-
 
 @media (min-width: 1300px) {
   .container {

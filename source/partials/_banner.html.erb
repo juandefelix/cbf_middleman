@@ -3,6 +3,7 @@
   <div class="background-image-container mb-5 img-fluid"
       style="width: 100%; background-image: linear-gradient(to left, transparent, rgba(0, 0, 0, 0), 60%, rgba(21, 22, 31, 0.55)), url(<%=image%>);">
   <div class="container mt-0">
+    <%#  the justify-content-between is pushing the right column to the right in smaller devices%>
     <div class="row justify-content-between align-items-center">
       <div class="hero-content col-md-5 main-text">
         <% if defined? title_2 != nil %>
@@ -31,6 +32,7 @@
       </div>
       <% if logo != nil %>
         <div class="logo col-md-5">
+          <%# these fixed width and height will be too much for a smaller device  %>
           <img src='<%=logo%>' width="449" height="500">
         </div>
       <% end %>
